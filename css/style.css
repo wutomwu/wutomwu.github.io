@@ -36,7 +36,7 @@ a, a:hover {
 /*---------------------------------------------------------------*/
 
 .sidebaritem {
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .sidebarheader {
@@ -103,7 +103,7 @@ a, a:hover {
 /*---------------------------------------------------------------*/
 
 .mainitem {
-	margin-bottom: 1.25em;
+	margin-bottom: 1.25cm;
 }
 
 .mainheader {
@@ -126,7 +126,7 @@ a, a:hover {
 /*---------------------------------------------------------------*/
 
 .pub {
-	padding-bottom: 8px;
+	padding-bottom: 16px;
 }
 
 .pubtextsection {
@@ -143,7 +143,7 @@ a, a:hover {
 
 .pubaward {
 	display: inline-block;
-	margin-top: 5px;
+	margin-top: 10px;
 	background-color: #112266;
 	font-size: 13px;
 }
