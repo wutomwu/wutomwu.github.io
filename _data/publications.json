@@ -7,8 +7,7 @@
 		"date": "2018",
 		"links" : [
 			{"type": "pdf"},
-			{"type": "link", "name": "project1", "target": "http://staff.ustc.edu.cn/~lgliu/Projects/2018_EG_IPLayout/default.html"},
-			{"type": "link", "name": "project2", "target": "https://lubinfan.github.io/particulars.html?id=1"}
+			{"type": "link", "name": "project", "target": "http://staff.ustc.edu.cn/~lgliu/Projects/2018_EG_IPLayout/default.html"},
 		]
 	},
 
