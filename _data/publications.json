@@ -1,0 +1,23 @@
+[
+	{
+		"id": "miqpdesign",
+		"title": "MIQP-based Layout Design for Building Interiors",
+		"authors": ["Wenming Wu", "Lubin Fan", "Ligang Liu", "Peter Wonka"],
+		"venue": "Eurographics 2018",
+		"date": "2018",
+		"links" : [
+			{"type": "link", "name": "project", "target": "http://staff.ustc.edu.cn/~lgliu/Projects/2018_EG_IPLayout/default.html"}
+		]
+	},
+
+	{
+		"id": "deeplayout",
+		"title": "Data-driven Interior Plan Generation for Residential Buildings",
+		"authors": ["Wenming Wu", "Xiao-Ming Fu", "Rui Tang", "Yuhan Wang", "Yu-Hao Qi", "Ligang Liu"],
+		"venue": "SIGGRAPH Asia 2019",
+		"date": "2019",
+		"links" : [
+			{"type": "link", "name": "project", "target": "http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html"}
+		]
+	}
+]
