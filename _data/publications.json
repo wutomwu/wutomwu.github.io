@@ -24,7 +24,7 @@
 	{
 		"title": " Tailored Reality: Perception-Aware Scene Restructuring for Adaptive VR Navigation",
 		"authors": ["Zhi-Chao Dong", "Wenming Wu", "Zeng-Hao Xu", "Qi Sun", "Guan-Jie Yuan", "Ligang Liu", "Xiao-Ming Fu"],
-		"venue": "ACM Transactions on Graphics",
+		"venue": "ACM Transactions on Graphics, 2021",
 		"date": "2021",
 		"links" : [
 			{"type": "link", "name": "project", "target": "http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html"},
