@@ -44,101 +44,98 @@ layout: default
 		<br>
 			Lecturer,
 			<a target='_blank' href='http://www.hfut.edu.cn/'> Hefei University of Technology</a>, 
-			2020, 7 - Now
+			2020.7 - Now
 		<br>
 			Ph.D,
 			<a target='_blank' href='https://www.ustc.edu.cn/'> University of Science and Technology of China</a>, 
-			2015, 9 - 2020, 6
+			2015.9 - 2020.6
 		<br>
 			Bachelor,
 			<a target='_blank' href='https://www.ustc.edu.cn/'> Anhui University</a>, 
-			2011, 9 - 2015, 6
+			2011.9 - 2015.6
 		<br>
 	</tbody>
 </table>
-</div>
+	
+<h2>Publications</h2>
+<table>
+	<tbody>
+		{% assign sorted_pubs = site.data.publications | sort: 'date' | reverse %}
 
-<div class='mainitem' id='publications'> 
+		{% for pub in sorted_pubs %}
 
-	<div class='mainheader'>Publications</div>
+			<div class='row pub'>
 
-	{% assign sorted_pubs = site.data.publications | sort: 'date' | reverse %}
+				{% capture mainlink %}
+					{% assign firstlink = pub.links[0] %}
+					{% if firstlink.target %}
+						{{ firstlink.target }}
+					{% elsif firstlink.type == 'pdf' %}
+						pdf/{{ pub.id }}.pdf
+					{% else %}
+						/
+					{% endif %}
+				{% endcapture %}
 
-	{% for pub in sorted_pubs %}
-
-		<div class='row pub'>
-
-			{% capture mainlink %}
-				{% assign firstlink = pub.links[0] %}
-				{% if firstlink.target %}
-					{{ firstlink.target }}
-				{% elsif firstlink.type == 'pdf' %}
-					pdf/{{ pub.id }}.pdf
-				{% else %}
-					/
-				{% endif %}
-			{% endcapture %}
-
-			<div class='col-lg-4 col-md-4 col-xs-4 pubimagesection'>
-				<a><img class='pubimage img img-responsive' src='img/pubthumbs/{{ pub.id }}.png' width='250'/></a>
-			</div>
-
-			<div class='col-lg-8 col-md-8 col-xs-8 pubtextsection'>
-
-				<div class='pubtitle'>
-					<a target='_blank' href='{{ mainlink }}'>{{ pub.title }}</a>
+				<div class='col-lg-4 col-md-4 col-xs-4 pubimagesection'>
+					<a><img class='pubimage img img-responsive' src='img/pubthumbs/{{ pub.id }}.png' width='250'/></a>
 				</div>
 
-				<div class='pubauthors'>
-					{% for author in pub.authors %}
-						{% if forloop.last %}{% unless forloop.first %} and {% endunless %}{% endif %}
-						{% if site.data.people[author] %}
-							<a class='pubauthor' target='_blank' href='{{ site.data.people[author] }}'>
+				<div class='col-lg-8 col-md-8 col-xs-8 pubtextsection'>
+
+					<div class='pubtitle'>
+						<a target='_blank' href='{{ mainlink }}'>{{ pub.title }}</a>
+					</div>
+
+					<div class='pubauthors'>
+						{% for author in pub.authors %}
+							{% if forloop.last %}{% unless forloop.first %} and {% endunless %}{% endif %}
+							{% if site.data.people[author] %}
+								<a class='pubauthor' target='_blank' href='{{ site.data.people[author] }}'>
+									{{ author }}{% if forloop.last == false %}{% unless forloop.length == 2 %}, {% endunless %}{% endif %}
+								</a>
+							{% else %}
 								{{ author }}{% if forloop.last == false %}{% unless forloop.length == 2 %}, {% endunless %}{% endif %}
-							</a>
-						{% else %}
-							{{ author }}{% if forloop.last == false %}{% unless forloop.length == 2 %}, {% endunless %}{% endif %}
+							{% endif %}
+						{% endfor %}
+						{% if pub.equalcontrib %}
+						     (*Equal Contribution)
 						{% endif %}
+					</div>
+
+
+					<div class='pubvenue'>{{ pub.venue }}</div>
+
+					{% for link in pub.links %}
+						{% if forloop.first == false %} | {% endif %}
+
+						{% capture lname %}
+							{% if link.type == 'link' %}
+								{{ link.name }}
+							{% else %}
+								{{ link.type }}
+							{% endif %}
+						{% endcapture %}
+
+						{% capture ltarget %}
+							{% if link.type == 'link' %}
+								{{ link.target }}
+							{% else %}
+								{{ link.type }}/{% if link.target %}{{ link.target }}{% else %}{{ pub.id }}.{{ site.data.extensions[link.type] }}{% endif %}
+							{% endif %}
+						{% endcapture %}
+
+						<a class='publink' target='_blank' href='{{ ltarget }}'>{{ lname }}</a>
 					{% endfor %}
-                                        {% if pub.equalcontrib %}
-                                             (*Equal Contribution)
-                                        {% endif %}
+
+					{% if pub.award %}
+						<div><span class='label pubaward'>{{ pub.award }}</span></div>
+					{% endif %}
+
 				</div>
 
-
-				<div class='pubvenue'>{{ pub.venue }}</div>
-
-				{% for link in pub.links %}
-					{% if forloop.first == false %} | {% endif %}
-
-					{% capture lname %}
-						{% if link.type == 'link' %}
-							{{ link.name }}
-						{% else %}
-							{{ link.type }}
-						{% endif %}
-					{% endcapture %}
-
-					{% capture ltarget %}
-						{% if link.type == 'link' %}
-							{{ link.target }}
-						{% else %}
-							{{ link.type }}/{% if link.target %}{{ link.target }}{% else %}{{ pub.id }}.{{ site.data.extensions[link.type] }}{% endif %}
-						{% endif %}
-					{% endcapture %}
-
-					<a class='publink' target='_blank' href='{{ ltarget }}'>{{ lname }}</a>
-				{% endfor %}
-
-				{% if pub.award %}
-					<div><span class='label pubaward'>{{ pub.award }}</span></div>
-				{% endif %}
-
 			</div>
-
-		</div>
-	{% endfor %}
-
-	</div>
-
+		{% endfor %}
+	</tbody>
+</table>	
 </div>
