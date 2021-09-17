@@ -22,9 +22,20 @@
 	},
 
 	{
-		"title": " Tailored Reality: Perception-Aware Scene Restructuring for Adaptive VR Navigation",
+		"title": "Tailored Reality: Perception-Aware Scene Restructuring for Adaptive VR Navigation",
 		"authors": ["Zhi-Chao Dong", "Wenming Wu", "Zeng-Hao Xu", "Qi Sun", "Guan-Jie Yuan", "Ligang Liu", "Xiao-Ming Fu"],
 		"venue": "ACM Transactions on Graphics, 2021",
+		"date": "2021",
+		"links" : [
+			{"type": "link", "name": "project", "target": "http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html"},
+			{"type": "pdf"}
+		]
+	},
+
+	{
+		"title": "A Novel Computation Method of Hybrid Capacity Constrained Centroidal Power Diagram",
+		"authors": ["Liping Zheng", "Yuyou Yao", "Wenming Wu", "Benzhu Xu", "Gaofeng Zhang"],
+		"venue": "Computers & Graphics, 2021",
 		"date": "2021",
 		"links" : [
 			{"type": "link", "name": "project", "target": "http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html"},
