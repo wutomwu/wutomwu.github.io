@@ -1,6 +1,5 @@
 # Site settings
 
-title: Wenming Wu's Homepage
+encoding: utf-8
 
-collections:
-- news
+title: Wenming Wu's Homepage
