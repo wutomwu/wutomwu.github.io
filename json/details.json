@@ -320,29 +320,34 @@
 				"name": "Results",
 				"images": 
 				[
+					{ 
+						"type":"Figure 2",
+						"uri": "images/2021-TailoredReality/result1.png",
+						"caption": "The original indoor scene and the retargeted result using our method. Top: Floor plans of the original indoor scene and our result. Middle: several sampling HMD views from the original indoor scene. Botom: Corresponding views from our result."
+					},
 					{
-					    "type":"Figure 2",
-						"uri": "images/2021-TailoredReality/results1.png",
-						"caption": "Diﬀerent weight sets of the energy function Er ({si }). The virtual scene in Figure 1(a) is retargeted into the same real space, and the ratio of real space is 0.65. The weights for (Escale, Eobject, Escene, Espace, Evisibility) are set to (0.001, 200, 50, 0.0003, 0.001) (a), (0.0002, 100, 25, 0.0002, 0.002) (b), and (0.0015, 150, 75, 0.0005, 0.003) (c), respectively. The only subtle variances with diﬀerent parameter seting reveals the robustness of the retargeting method."
+					    "type":"Figure 3",
+						"uri": "images/2021-TailoredReality/results2.png",
+						"caption": "Different weight sets of the energy function Er ({si }). The virtual scene in Figure 1(a) is retargeted into the same real space, and the ratio of real space is 0.65. The weights for (Escale, Eobject, Escene, Espace, Evisibility) are set to (0.001, 200, 50, 0.0003, 0.001) (a), (0.0002, 100, 25, 0.0002, 0.002) (b), and (0.0015, 150, 75, 0.0005, 0.003) (c), respectively. The only subtle variances with diﬀerent parameter seting reveals the robustness of the retargeting method."
 					},
 					{ 
 						"type":"Figure 4",
-						"uri": "images/2021-TailoredReality/result1.png",
-						"caption": "Examples of floor plans synthesized by our method, given one or two room locations specified by users (red dots). From lef to right: no specified room, specified master room, and specified kitchen and bathroom."
+						"uri": "images/2021-TailoredReality/result3.png",
+						"caption": "Various numbers of salient objects. From lef to right, the number of salient objects in the virtual scene decreases monotonously."
 					},
 					{
 						"type":"Figure 5",
-						"uri": "images/2021-TailoredReality/result2.png",
-						"caption": "Various numbers of salient objects. From lef to right, the number of salient objects in the virtual scene decreases monotonously."
+						"uri": "images/2021-TailoredReality/result4.png",
+						"caption": "Different real spaces with the same area. The values above the retargeted scene indicate the ratios between the width and height of the real space and the input virtual scene."
 					},
 					{ 
 						"type":"Figure 6",
-						"uri": "images/2021-TailoredReality/result3.png",
-						"caption": "Diﬀerent real spaces with the same area. The values above the retargeted scene indicate the ratios between the width and height of the real space and the input virtual scene."
+						"uri": "images/2021-TailoredReality/result5.png",
+						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
 					},
 					{
 						"type":"Figure 7",
-						"uri": "images/2021-TailoredReality/result4.png",
+						"uri": "images/2021-TailoredReality/result6.png",
 						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
 					}
 				]
@@ -352,8 +357,8 @@
 		"bibtex": 
 		{
 			"type": "article",
-			"name": "wu2019data",
-			"title": "MIQP-based Layout Design for Building Interiors",
+			"name": "dong2021tailored",
+			"title": "Tailored Reality: Perception-aware Scene Restructuring for Adaptive VR Navigation",
 			"author": "Zhi-Chao Dong and Wenming Wu and Zeng-Hao Xu and Qi Sun and Guan-Jie Yuan and Ligang Liu and Xiao-Ming Fu",
 			"journel": "ACM Transactions on Graphics",
 			"volume": "40",
@@ -375,6 +380,134 @@
 			{
 				"iconUri": "images/icons/zip_wh64.png",
 				"matUri": "images/2021-TailoredReality/code.pdf",
+				"caption": "Code (~20MB)"
+			}
+		]
+	},
+	{
+		"title": "WallPlan: Synthesizing Floorplans by Learning to Generate Wall Graphs",
+		"authors": 
+		[
+			{
+				"fullName": "Jiahui Sun",
+				"afflID": [0]
+			},
+			{
+				"fullName": "Wenming Wu",
+				"url": "https://wutomwu.github.io/",
+				"afflID": [0]
+			},
+			{
+				"fullName": "Ligang Liu",
+				"url": "http://staff.ustc.edu.cn/~lgliu/",
+				"afflID": [1]
+			},
+			{
+				"fullName": "Wenjie Min",
+				"afflID": [0]
+			},
+			{
+				"fullName": "Gaofeng Zhang",
+				"afflID": [0]
+			},
+			{
+				"fullName": "Liping Zheng",
+				"afflID": [0]
+			}
+		],
+		"affiliations": 
+		[
+			{
+				"name": "Hefei University of Technology"
+			},
+			{
+				"name": "University of Science and Technology of China"
+			}
+		],
+		"event": "ACM Transactions on Graphics (Proc. of SIGGRAPH 2022)",
+		"abstract": "Floorplan generation has drawn widespread interest in the community. Recent learning-based methods for generating realistic ﬂoorplans have made signifcant progress while a complex heuristic post-processing is still necessary to obtain desired results. In this paper, we propose a novel wall-oriented method, called WallPlan, for automatically and efciently generating plausible ﬂoorplans from various design constraints. We pioneer the representation of the ﬂoorplan as a wall graph with room labels and consider the ﬂoorplan generation as a graph generation. Given the boundary as input, we frst initialize the boundary with windows predicted by WinNet. Then a graph generation network GraphNet and semantics prediction network LabelNet are coupled to generate the wall graph progressively by imitating graph traversal. WallPlan can be applied for practical architectural designs, especially the wall-based constraints. We conduct ablation experiments, qualitative evaluations, quantitative comparisons, and perceptual studies to evaluate our method’s feasibility, efcacy, and versatility. Intensive experiments demonstrate our method requires no post-processing, producing higher quality ﬂoorplans than state-of-the-art techniques.", 
+		"contents": 
+		[
+			{
+				"name": "",
+				"images": 
+				[
+					{
+						"type":"Figure 1",
+						"uri": "images/2022-WallPlan/teaser.png",
+						"caption": "Illustration of our system. Tailored for first-person view VR applications, we propose a novel perception-aware scene retargeting method. It restructures a given virtual scene (a) for users’ small and varied physical spaces (valid area in (b) and (c)). Our technique preserves not only geometric and topological properties but also perceptual fidelity with the immersive first-person view. It addresses the commonly existing collision problems from previous method. For instance the red areas in (e). This can be visualized by comparing the sampled HMD views between Huang et al. [2016] (e) and ours (f)."
+					}
+				]
+			},
+			{
+				"name": "Results",
+				"images": 
+				[
+					{ 
+						"type":"Figure 2",
+						"uri": "images/2022-WallPlan/result1.png",
+						"caption": "The original indoor scene and the retargeted result using our method. Top: Floor plans of the original indoor scene and our result. Middle: several sampling HMD views from the original indoor scene. Botom: Corresponding views from our result."
+					},
+					{
+					    "type":"Figure 3",
+						"uri": "images/2022-WallPlan/results2.png",
+						"caption": "Different weight sets of the energy function Er ({si }). The virtual scene in Figure 1(a) is retargeted into the same real space, and the ratio of real space is 0.65. The weights for (Escale, Eobject, Escene, Espace, Evisibility) are set to (0.001, 200, 50, 0.0003, 0.001) (a), (0.0002, 100, 25, 0.0002, 0.002) (b), and (0.0015, 150, 75, 0.0005, 0.003) (c), respectively. The only subtle variances with diﬀerent parameter seting reveals the robustness of the retargeting method."
+					},
+					{ 
+						"type":"Figure 4",
+						"uri": "images/2022-WallPlan/result3.png",
+						"caption": "Various numbers of salient objects. From lef to right, the number of salient objects in the virtual scene decreases monotonously."
+					},
+					{
+						"type":"Figure 5",
+						"uri": "images/2022-WallPlan/result4.png",
+						"caption": "Different real spaces with the same area. The values above the retargeted scene indicate the ratios between the width and height of the real space and the input virtual scene."
+					},
+					{ 
+						"type":"Figure 6",
+						"uri": "images/2022-WallPlan/result5.png",
+						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+					},
+					{
+						"type":"Figure 7",
+						"uri": "images/2022-WallPlan/result6.png",
+						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+					}
+				]
+			}
+		],
+		"acknowlegement": "We thank user study participants for evaluating our system and the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (61802359 and 62025207), Zhejiang Lab (NO.2019NB0AB03), and USTC Research Funds of Double First-Class Initiative (YD0010002003).",
+		"bibtex": 
+		{
+			"type": "article",
+			"name": "dong2021tailored",
+			"title": "Tailored Reality: Perception-aware Scene Restructuring for Adaptive VR Navigation",
+			"author": "Zhi-Chao Dong and Wenming Wu and Zeng-Hao Xu and Qi Sun and Guan-Jie Yuan and Ligang Liu and Xiao-Ming Fu",
+			"journel": "ACM Transactions on Graphics",
+			"volume": "40",
+			"number": "5",
+			"year": "2021"
+		},
+		"materials": 
+		[ 
+			{
+				"iconUri": "images/icons/pdf_wh64.png",
+				"matUri": "images/2022-WallPlan/paper.pdf",
+				"caption": "Paper (~22MB)"
+			},
+			{
+				"iconUri": "images/icons/video_wh64.png",
+				"matUri": "images/2022-WallPlan/video.pdf",
+				"caption": "Video (~52MB)"
+			},
+			{
+				"iconUri": "images/icons/pdf_wh64.png",
+				"matUri": "images/2022-WallPlan/suppl.pdf",
+				"caption": "Supplementary Material (~7MB)"
+			},
+			{
+				"iconUri": "images/icons/zip_wh64.png",
+				"matUri": "images/2022-WallPlan/code.pdf",
 				"caption": "Code (~20MB)"
 			}
 		]
