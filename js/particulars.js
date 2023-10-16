@@ -32,7 +32,7 @@ function initialization (data) {
 	$("#Year").text(data[idSerial].bibtex.year)
 	
 	  for (var i=0;i<data[idSerial].contents[0].images.length;i++) { //第一个内容区域 	
-	  	var item='<div style="text-align: center;"><img width="500" src="'+data[idSerial].contents[0].images[i].uri+'" class="particulars-img image1" />'
+	  	var item='<div style="text-align: center;"><img width="600" src="'+data[idSerial].contents[0].images[i].uri+'" class="particulars-img image1" />'
 	  	        +'</div><div style="height: 18px;"></div><p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[0].images[i].type+'. </font>'
 	           	+'<span class="article1">'+data[idSerial].contents[0].images[i].caption+'</span></p>'
 	    $(".theFirst").append(item)
@@ -45,7 +45,7 @@ function initialization (data) {
              for (var k=0;k<data[idSerial].contents[i].images.length;k++){    	
                
             
-          cycle +='<div style="text-align: center;"><img width="500" src="'+data[idSerial].contents[i].images[k].uri+'" class="particulars-img" /></div>'
+          cycle +='<div style="text-align: center;"><img width="600" src="'+data[idSerial].contents[i].images[k].uri+'" class="particulars-img" /></div>'
 			          +'<p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[i].images[k].type+'. </font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p>'
 			          
              }
