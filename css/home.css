@@ -2,7 +2,7 @@
 	width: 1000px;
 	height: 54px;
 	background: #fbfe56;
-	color: #005596;
+	color: #ffffff;
 	text-indent: 10px;
 	font-size: 20px !important;
 	font-family: Arimo, sans-serif;
@@ -10,7 +10,7 @@
 }
 
 .headline a {
-	color: #FFFFFF;
+	color: #005596;
 	position: relative;
 	top: 12px;
 }
