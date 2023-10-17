@@ -444,8 +444,6 @@ a {
 }
 .particularsVideo{max-width: 900px;text-align: center;}
 
-
-/* 只对具有 "no-zebra-stripes" 类的表格取消奇偶行颜色 */
 table.no-color tr:nth-child(odd) 
 {
 	background-color: white; /* 设置偶数行的背景颜色 */
