@@ -45,7 +45,7 @@
 				[
 					{
 						"type":"Figure 1",
-						"uri": "images/2018-IPLayout/teaser.png",
+						"uri": "images/2018-IPLayout/overview.png",
 						"caption": "We propose a framework that generates building interiors with high-level constraints, e.g., room size, room position, room adjacency, and the outline of the building. (a) The layout of a two-storey house and corresponding 3D renderings. (b) A large-scale example depicting an office building. For such large-scale layouts, our method is faster by multiple orders of magnitude than previous methods."
 					}
 				]
