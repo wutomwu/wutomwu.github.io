@@ -1,6 +1,6 @@
 var idSerial=getQueryString('id')
    $.ajax({
-   	url: 'json/details.json',
+   	url: 'details.json',
    	dataType: 'json',
    	success: function(data) {
 
