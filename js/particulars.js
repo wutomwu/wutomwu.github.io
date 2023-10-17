@@ -93,7 +93,7 @@ function initialization (data) {
      	  }
 	   
 		var items
-		if (data[idSerial].authors[i].url == undefined)
+		if (typeof(data[idSerial].authors[i].url) == "undefined")
 		{
 			items='<a style="position: relative;">'+data[idSerial].authors[i].fullName+''
 		          +'<i class="artifont">'+num+'</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
