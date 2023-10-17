@@ -463,3 +463,8 @@ table.no-border th, table.no-border td
 {
     border: none; /* 去除表头和单元格的边框 */
 }
+
+table.no-border tr 
+{
+	border-top: 0px; /* 去除表头边框 */
+}
