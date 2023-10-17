@@ -45,7 +45,7 @@ function initialization (data) {
              for (var k=0;k<data[idSerial].contents[i].images.length;k++){    	
                
             
-          cycle +='<div style="text-align: center;"><img src="'+data[idSerial].contents[i].images[k].uri+'" class="particulars-img" /></div>'
+          cycle +='<div style="text-align: center;"><img width="900" src="'+data[idSerial].contents[i].images[k].uri+'" class="particulars-img" /></div>'
 			          +'<p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[i].images[k].type+'. </font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p>'
 			          
              }
