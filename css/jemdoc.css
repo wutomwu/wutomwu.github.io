@@ -2,9 +2,20 @@
 
 table#tlayout {
     border: none;
-    border-collapse: separate;
+    border-collapse: collapse;
     background: white;
 }
+
+table th, table td 
+{
+    border: none; /* 去除表头和单元格的边框 */
+}
+
+h1 
+{
+    display: none;
+}
+
 /*
 body {
 	background: white;
