@@ -125,7 +125,7 @@
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
-				"matUri": "publications/2018-IPLayout/video.pdf",
+				"matUri": "publications/2018-IPLayout/video.mp4",
 				"caption": "Video (~50MB)"
 			},
 			{
@@ -258,7 +258,7 @@
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
-				"matUri": "publications/2019-DeepLayout/video.pdf",
+				"matUri": "publications/2019-DeepLayout/video.mp4",
 				"caption": "Video (~12MB)"
 			},
 			{
@@ -384,7 +384,7 @@
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
-				"matUri": "publications/2021-TailoredReality/video.pdf",
+				"matUri": "publications/2021-TailoredReality/video.mp4",
 				"caption": "Video (~52MB)"
 			},
 			{
@@ -521,7 +521,7 @@
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
-				"matUri": "publications/2022-WallPlan/video.pdf",
+				"matUri": "publications/2022-WallPlan/video.mp4",
 				"caption": "Video (~65MB)"
 			},
 			{
@@ -641,7 +641,7 @@
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
-				"matUri": "publications/2023-BubbleFormer/video.pdf",
+				"matUri": "publications/2023-BubbleFormer/video.mp4",
 				"caption": "Video (~76MB)"
 			},
 			{
