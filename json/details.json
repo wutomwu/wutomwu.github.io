@@ -11,17 +11,17 @@
 			{
 				"fullName": "Lubin Fan",
 				"url": "https://lubinfan.github.io",
-				"afflID": [0]
+				"afflID": [1]
 			},
 			{
 				"fullName": "Ligang Liu",
 				"url": "http://staff.ustc.edu.cn/~lgliu",
-				"afflID": [1]
+				"afflID": [0]
 			},
 			{
 				"fullName": "Peter Wonka",
 				"url": "http://peterwonka.net",
-				"afflID": [0]
+				"afflID": [1]
 			}
 		],
 		"affiliations": 
@@ -40,7 +40,7 @@
 		"contents": 
 		[
 			{
-				"name": "Teaser",
+				"name": "",
 				"images": 
 				[
 					{
