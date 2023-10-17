@@ -265,6 +265,11 @@
 				"iconUri": "publications/icons/ppt_wh64.png",
 				"matUri": "publications/2019-DeepLayout/slide.pptx",
 				"caption": "Slide (~10MB)"
+			},
+			{
+				"iconUri": "publications/icons/dataset_wh64.png",
+				"matUri": "https://docs.google.com/forms/d/e/1FAIpQLSfwteilXzURRKDI5QopWCyOGkeb_CFFbRwtQ0SOPhEg0KGSfw/viewform?usp=sf_link",
+				"caption": "Dataset"
 			}
 		]
 	},
