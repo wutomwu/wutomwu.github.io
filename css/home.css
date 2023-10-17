@@ -1,9 +1,9 @@
 .headline {
 	width: 1000px;
 	height: 54px;
-	background: #444444;
-	color: #ffffff;
-	text-indent: 60px;
+	background: #fbfe56;
+	color: #005596;
+	text-indent: 10px;
 	font-size: 20px !important;
 	font-family: Arimo, sans-serif;
 	font: bold 33px "Open Sans", sans-serif;
@@ -12,7 +12,7 @@
 .headline a {
 	color: #FFFFFF;
 	position: relative;
-	top: 11px;
+	top: 12px;
 }
 
 .container {
