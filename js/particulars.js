@@ -92,9 +92,17 @@ function initialization (data) {
      	  	num=[]
      	  }
 	   
-	     
-		var items='<a style="position: relative;" href="'+data[idSerial].authors[i].url+'" >'+data[idSerial].authors[i].fullName+''
+		var items
+		if (data[idSerial].authors[i].url == undefined)
+		{
+			items='<a style="position: relative;">'+data[idSerial].authors[i].fullName+''
 		          +'<i class="artifont">'+num+'</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+		}
+		else
+		{
+			items='<a style="position: relative;" href="'+data[idSerial].authors[i].url+'" >'+data[idSerial].authors[i].fullName+''
+			+'<i class="artifont">'+num+'</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+		}
 		
 		$(".particulars-detail").append(items)
 	  }
