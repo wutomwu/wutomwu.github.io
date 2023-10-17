@@ -27,12 +27,12 @@
 		"affiliations": 
 		[
 			{
-				"name": "King Abdullah University of Science and Technology",
-				"url": "http://www.kaust.edu.sa"
-			},
-			{
 				"name": "University of Science and Technology of China",
 				"url": "http://www.ustc.edu.cn"
+			},
+			{
+				"name": "King Abdullah University of Science and Technology",
+				"url": "http://www.kaust.edu.sa"
 			}
 		],
 		"event": "Computer Grahpics Forum (Proc. of Eurographics 2018)",
@@ -448,7 +448,8 @@
 						"caption": "Illustration of our system. Tailored for first-person view VR applications, we propose a novel perception-aware scene retargeting method. It restructures a given virtual scene (a) for users’ small and varied physical spaces (valid area in (b) and (c)). Our technique preserves not only geometric and topological properties but also perceptual fidelity with the immersive first-person view. It addresses the commonly existing collision problems from previous method. For instance the red areas in (e). This can be visualized by comparing the sampled HMD views between Huang et al. [2016] (e) and ours (f)."
 					}
 				]
-			},{
+			},
+			{
 				"name": "Overview",
 				"images": 
 				[
@@ -575,12 +576,12 @@
 					{ 
 						"type":"Figure 3",
 						"uri": "images/2023-BubbleFormer/result1.png",
-						"caption": "Constrained generation. We illustrate the bubble diagrams generated with different boundaries and user constraints. The number of bedrooms, bathrooms, and balconies constrained are shown at the bottom"
+						"caption": "Constrained generation. We illustrate the bubble diagrams generated with different boundaries and user constraints. The number of bedrooms, bathrooms, and balconies constrained are shown at the bottom."
 					},
 					{
 					    "type":"Figure 4",
 						"uri": "images/2023-BubbleFormer/results2.png",
-						"caption": "Unconstrained generation. We have tested the capability of BubbleFormer to generate bubble diagrams without any input"
+						"caption": "Unconstrained generation. We have tested the capability of BubbleFormer to generate bubble diagrams without any input."
 					},
 					{ 
 						"type":"Figure 5",
