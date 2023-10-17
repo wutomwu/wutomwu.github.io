@@ -45,7 +45,7 @@
 				[
 					{
 						"type":"Figure 1",
-						"uri": "images/2018-IPLayout/overview.png",
+						"uri": "images/2018-IPLayout/teaser.png",
 						"caption": "We propose a framework that generates building interiors with high-level constraints, e.g., room size, room position, room adjacency, and the outline of the building. (a) The layout of a two-storey house and corresponding 3D renderings. (b) A large-scale example depicting an office building. For such large-scale layouts, our method is faster by multiple orders of magnitude than previous methods."
 					}
 				]
@@ -110,8 +110,8 @@
 		[ 
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "images/2018-IPLayout/paper.pdf",
-				"caption": "Paper (~83MB)"
+				"matUri": "https://drive.google.com/file/d/1dgiRYRmBRnHzRu938kY7Krqu77dY-1LX/view?usp=drive_link",
+				"caption": "Paper (~108MB)"
 			},
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
@@ -127,6 +127,11 @@
 				"iconUri": "images/icons/video_wh64.png",
 				"matUri": "images/2018-IPLayout/video.pdf",
 				"caption": "Video (~50MB)"
+			},
+			{
+				"iconUri": "images/icons/ppt_wh64.png",
+				"matUri": "images/2018-IPLayout/slide.pptx",
+				"caption": "Slide (~18MB)"
 			}
 		]
 	},
@@ -154,7 +159,7 @@
 			},
 			{
 				"fullName": "Yu-Hao Qi",
-				"afflID": [1]
+				"afflID": [0]
 			},
 			{
 				"fullName": "Ligang Liu",
@@ -183,7 +188,7 @@
 				[
 					{
 						"type":"Figure 1",
-						"uri": "images/2018-IPLayout/teaser.png",
+						"uri": "images/2019-DeepLayout/teaser.png",
 						"caption": "Our dataset RPLAN. (a) Statistics on the occurrence of each room type (a1), room number per floor plan (a2), the proportion of the area of the living room (a3), and the number of floor plan according to the total area (a4). (b) One typical floor plan in our collected dataset. (c) For each floor plan, we abstract the necessary information used in our method, including the boundary mask (the entrance is shown in red), inside mask, (interior) wall mask, and room mask."
 					}
 				]
@@ -220,7 +225,7 @@
 					},
 					{
 						"type":"Figure 6",
-						"uri": "images/2018-IPLayout/result5.png",
+						"uri": "images/2019-DeepLayout/result4.png",
 						"caption": "Synthesizing multiple floor plans given the same boundary as input."
 					}
 				]
@@ -254,6 +259,11 @@
 				"iconUri": "images/icons/video_wh64.png",
 				"matUri": "images/2019-DeepLayout/video.pdf",
 				"caption": "Video (~12MB)"
+			},
+			{
+				"iconUri": "images/icons/ppt_wh64.png",
+				"matUri": "images/2019-DeepLayout/slide.pptx",
+				"caption": "Slide (~10MB)"
 			}
 		]
 	},
@@ -305,7 +315,7 @@
 			}
 		],
 		"event": "ACM Transactions on Graphics (Proc. of SIGGRAPH Asia 2019)",
-		"abstract": "In virtual reality (VR), the virtual scenes are pre-designed by creators. Our physical surroundings, however, comprise signifcantly varied sizes, layouts, and components. To bridge the gap and further enable natural navigation, recent solutions have been proposed to redirect users or recreate the virtual content. However, they suffer from either interrupted experience or distorted appearances. We present a novel VR-oriented algorithm that automatically restructures a given virtual scene for a user’s physical environment. Different from the previous methods, we introduce neither interrupted walking experience nor curved appearances. Instead, a perceptionaware function optimizes our retargeting technique to preserve the fdelity of the virtual scene that appears in VR head-mounted displays. Besides geometric and topological properties, it emphasizes the unique frst-person view perceptual factors in VR, such as dynamic visibility and objectwise relationships. We conduct both analytical experiments and subjective studies. The results demonstrate our system’s versatile capability and practicability for natural navigation in VR: It reduces the virtual space by 40% without statistical loss of perceptual identicality.", 
+		"abstract": "In virtual reality (VR), the virtual scenes are pre-designed by creators. Our physical surroundings, however, comprise signifcantly varied sizes, layouts, and components. To bridge the gap and further enable natural navigation, recent solutions have been proposed to redirect users or recreate the virtual content. However, they suffer from either interrupted experience or distorted appearances. We present a novel VR-oriented algorithm that automatically restructures a given virtual scene for a user’s physical environment. Different from the previous methods, we introduce neither interrupted walking experience nor curved appearances. Instead, a perceptionaware function optimizes our retargeting technique to preserve the fdelity of the virtual scene that appears in VR head-mounted displays. Besides geometric and topological properties, it emphasizes the unique first-person view perceptual factors in VR, such as dynamic visibility and objectwise relationships. We conduct both analytical experiments and subjective studies. The results demonstrate our system’s versatile capability and practicability for natural navigation in VR: It reduces the virtual space by 40% without statistical loss of perceptual identicality.", 
 		"contents": 
 		[
 			{
@@ -330,7 +340,7 @@
 					},
 					{
 					    "type":"Figure 3",
-						"uri": "images/2021-TailoredReality/results2.png",
+						"uri": "images/2021-TailoredReality/result2.png",
 						"caption": "Various numbers of salient objects. From lef to right, the number of salient objects in the virtual scene decreases monotonously."
 					},
 					{ 
@@ -374,6 +384,11 @@
 				"iconUri": "images/icons/zip_wh64.png",
 				"matUri": "images/2021-TailoredReality/code.pdf",
 				"caption": "Code (~20MB)"
+			},
+			{
+				"iconUri": "images/icons/ppt_wh64.png",
+				"matUri": "https://docs.google.com/presentation/d/1KJ4_pZ240w8eBiMDjDVb7t1ceOjinkJd/edit?usp=drive_link&ouid=104838625643552629233&rtpof=true&sd=true",
+				"caption": "Slide (~343MB)"
 			}
 		]
 	},
@@ -420,7 +435,7 @@
 			}
 		],
 		"event": "ACM Transactions on Graphics (Proc. of SIGGRAPH 2022)",
-		"abstract": "Floorplan generation has drawn widespread interest in the community. Recent learning-based methods for generating realistic ﬂoorplans have made signifcant progress while a complex heuristic post-processing is still necessary to obtain desired results. In this paper, we propose a novel wall-oriented method, called WallPlan, for automatically and efciently generating plausible ﬂoorplans from various design constraints. We pioneer the representation of the ﬂoorplan as a wall graph with room labels and consider the ﬂoorplan generation as a graph generation. Given the boundary as input, we frst initialize the boundary with windows predicted by WinNet. Then a graph generation network GraphNet and semantics prediction network LabelNet are coupled to generate the wall graph progressively by imitating graph traversal. WallPlan can be applied for practical architectural designs, especially the wall-based constraints. We conduct ablation experiments, qualitative evaluations, quantitative comparisons, and perceptual studies to evaluate our method’s feasibility, efcacy, and versatility. Intensive experiments demonstrate our method requires no post-processing, producing higher quality ﬂoorplans than state-of-the-art techniques.", 
+		"abstract": "Floorplan generation has drawn widespread interest in the community. Recent learning-based methods for generating realistic floorplans have made signifcant progress while a complex heuristic post-processing is still necessary to obtain desired results. In this paper, we propose a novel wall-oriented method, called WallPlan, for automatically and efciently generating plausible floorplans from various design constraints. We pioneer the representation of the floorplan as a wall graph with room labels and consider the floorplan generation as a graph generation. Given the boundary as input, we first initialize the boundary with windows predicted by WinNet. Then a graph generation network GraphNet and semantics prediction network LabelNet are coupled to generate the wall graph progressively by imitating graph traversal. WallPlan can be applied for practical architectural designs, especially the wall-based constraints. We conduct ablation experiments, qualitative evaluations, quantitative comparisons, and perceptual studies to evaluate our method’s feasibility, efcacy, and versatility. Intensive experiments demonstrate our method requires no post-processing, producing higher quality floorplans than state-of-the-art techniques.", 
 		"contents": 
 		[
 			{
@@ -452,11 +467,11 @@
 					{ 
 						"type":"Figure 3",
 						"uri": "images/2022-WallPlan/result1.png",
-						"caption": "Overview of WallPlan. (a) The building boundary, as well as the front door (in bright yellow), is given as input of WallPlan. (b) The boundary is initialized with windows (in dark yellow) predicted by WinNet. (c) WallPlan generates both the wall graph and floorplan semantics by a coupled structure of GraphNet and LabelNet from the input boundary and windows. (d) The generated wall graph and floorplan semantics are used to construct a wall graph with room labels as output of WallPlan. The vectorized floorplan can be directly obtained from the wall graph. Note that the drawing of windows and interior doors which are generated using a heuristic method is only used for visualization, also adopted by other figures in this paper."
+						"caption": "Constrained floorplan generation. Top row: various design constraints applied to the same boundary. Middle row: output wall graphs. Botom row: floorplan visualization of wall graphs. (a) Only the input boundary. (b) Window constraint. (c) Load-bearing wall constraint (black dots and line segments). (d) Bubble diagram constraint (represented as the layout graph). (e) Hybrid-constraint. The overall structure of the floorplan changes significantly with diﬀerent constraints."
 					},
 					{
 					    "type":"Figure 4",
-						"uri": "images/2022-WallPlan/results2.png",
+						"uri": "images/2022-WallPlan/result2.png",
 						"caption": "Loading-bearing wall constrained generation. Top row: the input boundary as well as the loading-bearing walls. Middle row: the generated wall graphs with the loading-bearing walls (in black) using our method. Botom row: the corresponding floorplans for visualization."
 					},
 					{ 
@@ -500,6 +515,11 @@
 				"iconUri": "images/icons/video_wh64.png",
 				"matUri": "images/2022-WallPlan/video.pdf",
 				"caption": "Video (~65MB)"
+			},
+			{
+				"iconUri": "images/icons/ppt_wh64.png",
+				"matUri": "images/2022-WallPlan/slide.pptx",
+				"caption": "Slide (~10MB)"
 			}
 		]
 	},
@@ -565,28 +585,28 @@
 					},
 					{
 					    "type":"Figure 4",
-						"uri": "images/2023-BubbleFormer/results2.png",
+						"uri": "images/2023-BubbleFormer/result2.png",
 						"caption": "Unconstrained generation. We have tested the capability of BubbleFormer to generate bubble diagrams without any input."
 					},
 					{ 
 						"type":"Figure 5",
 						"uri": "images/2023-BubbleFormer/result3.png",
-						"caption": "Various numbers of salient objects. From lef to right, the number of salient objects in the virtual scene decreases monotonously."
+						"caption": "Bubble diagram driven floor plan generation. Our method can further drive floor plan generation. Our generated bubble diagram can directly drive HouseGAN++ and WallPlan to obtain high-quality floor plans."
 					},
 					{
 						"type":"Figure 6",
 						"uri": "images/2023-BubbleFormer/result4.png",
-						"caption": "Bubble diagram driven ﬂoor plan generation. Our method can further drive ﬂoor plan generation. Our generated bubble diagram can directly drive HouseGAN++ and WallPlan to obtain high-quality ﬂoor plans."
+						"caption": "BubbleFormer can be applied to indoor furniture arrangemen and document layout generation.Top: indoor furniture arrangement of our method; Bottom: documnet layout generation of our method."
 					},
 					{ 
 						"type":"Figure 7",
 						"uri": "images/2023-BubbleFormer/result5.png",
-						"caption": "BubbleFormer can be applied to indoor furniture arrangemen and document layout generation.Top: indoor furniture arrangement of our method; Bottom: documnet layout generation of our method."
+						"caption": "Interpolation test. BubbleFormer generates bubble diagrams from a set of interpolated noise maps. The first and last ones are generated with two different noise maps sampled from a standard normal distribution, and the intermediate results are interpolated using these two noise maps."
 					},
 					{
 						"type":"Figure 8",
 						"uri": "images/2023-BubbleFormer/result6.png",
-						"caption": "Interpolation test. BubbleFormer generates bubble diagrams from a set of interpolated noise maps. The frst and last ones are generated with two different noise maps sampled from a standard normal distribution, and the intermediate results are interpolated using these two noise maps."
+						"caption": "Interpolation test. BubbleFormer generates bubble diagrams from a set of interpolated noise maps. The first and last ones are generated with two different noise maps sampled from a standard normal distribution, and the intermediate results are interpolated using these two noise maps."
 					}
 				]
 			}
@@ -619,6 +639,11 @@
 				"iconUri": "images/icons/video_wh64.png",
 				"matUri": "images/2023-BubbleFormer/video.pdf",
 				"caption": "Video (~76MB)"
+			},
+			{
+				"iconUri": "images/icons/ppt_wh64.png",
+				"matUri": "images/2023-BubbleFormer/slide.pptx",
+				"caption": "Slide (~13MB)"
 			}
 		]
 	}
