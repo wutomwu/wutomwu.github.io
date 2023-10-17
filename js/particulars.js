@@ -28,7 +28,7 @@ function initialization (data) {
 	$("#Journal").text(data[idSerial].bibtex.journel)
 	$("#Volume").text(data[idSerial].bibtex.volume)
 	$("#Number").text(data[idSerial].bibtex.number)
-	//$("#Pages").text(data[idSerial].bibtex.pages)
+	$("#Pages").text(data[idSerial].bibtex.pages)
 	$("#Year").text(data[idSerial].bibtex.year)
 	
 	  for (var i=0;i<data[idSerial].contents[0].images.length;i++) { //第一个内容区域 	
