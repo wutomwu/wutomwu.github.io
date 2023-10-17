@@ -446,17 +446,17 @@ a {
 
 
 /* 只对具有 "no-zebra-stripes" 类的表格取消奇偶行颜色 */
-table.no-zebra-stripes tr:nth-child(odd) 
+table.no-color tr:nth-child(odd) 
 {
 	background-color: white; /* 设置偶数行的背景颜色 */
 }
 
-table.no-zebra-stripes tr:nth-child(even) 
+table.no-color tr:nth-child(even) 
 {
 	background-color: white; /* 设置偶数行的背景颜色 */
 }
 
-table.no-zebra-stripes 
+table.no-border
 {
     border-collapse: collapse; /* 合并边框，去除外边框 */
     border: none; /* 去除内边框 */
