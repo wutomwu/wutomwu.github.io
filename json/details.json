@@ -40,7 +40,7 @@
 		"contents": 
 		[
 			{
-				"name": "",
+				"name": "Teaser",
 				"images": 
 				[
 					{
@@ -110,7 +110,7 @@
 		[ 
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://drive.google.com/file/d/1dgiRYRmBRnHzRu938kY7Krqu77dY-1LX/view?usp=drive_link",
+				"matUri": "https://drive.google.com/file/d/1dgiRYRmBRnHzRu938kY7Krqu77dY-1LX/view?usp=share_link",
 				"caption": "Paper (~108MB)"
 			},
 			{
@@ -387,7 +387,7 @@
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://docs.google.com/presentation/d/1KJ4_pZ240w8eBiMDjDVb7t1ceOjinkJd/edit?usp=drive_link&ouid=104838625643552629233&rtpof=true&sd=true",
+				"matUri": "https://docs.google.com/presentation/d/1KJ4_pZ240w8eBiMDjDVb7t1ceOjinkJd/edit?usp=share_link&ouid=104838625643552629233&rtpof=true&sd=true",
 				"caption": "Slide (~343MB)"
 			}
 		]
@@ -601,11 +601,6 @@
 					{ 
 						"type":"Figure 7",
 						"uri": "images/2023-BubbleFormer/result5.png",
-						"caption": "Interpolation test. BubbleFormer generates bubble diagrams from a set of interpolated noise maps. The first and last ones are generated with two different noise maps sampled from a standard normal distribution, and the intermediate results are interpolated using these two noise maps."
-					},
-					{
-						"type":"Figure 8",
-						"uri": "images/2023-BubbleFormer/result6.png",
 						"caption": "Interpolation test. BubbleFormer generates bubble diagrams from a set of interpolated noise maps. The first and last ones are generated with two different noise maps sampled from a standard normal distribution, and the intermediate results are interpolated using these two noise maps."
 					}
 				]
