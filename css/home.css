@@ -466,7 +466,7 @@ table.no-border th, table.no-border td
 
 table.no-border tr 
 {
-	border-top: 0px; /* 去除表头边框 */
+	border-top: 1px; /* 去除表头边框 */
 }
 
 h1 
