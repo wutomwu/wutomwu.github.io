@@ -32,7 +32,7 @@
 			},
 			{
 				"name": "University of Science and Technology of China",
-				"url": "http://en.ustc.edu.cn"
+				"url": "http://www.ustc.edu.cn"
 			}
 		],
 		"event": "Computer Grahpics Forum (Proc. of Eurographics 2018)",
@@ -136,12 +136,12 @@
 		[
 			{
 				"fullName": "Wenming Wu",
-				"url": "https://wutomwu.github.io/",
+				"url": "/",
 				"afflID": [0]
 			},
 			{
 				"fullName": "Xiao-Ming Fu",
-				"url": "https://ustc-gcl-f.github.io/",
+				"url": "https://ustc-gcl-f.github.io",
 				"afflID": [0]
 			},
 			{
@@ -158,17 +158,19 @@
 			},
 			{
 				"fullName": "Ligang Liu",
-				"url": "http://staff.ustc.edu.cn/~lgliu/",
+				"url": "http://staff.ustc.edu.cn/~lgliu",
 				"afflID": [0]
 			}
 		],
 		"affiliations": 
 		[
 			{
-				"name": "University of Science and Technology of China"
+				"name": "University of Science and Technology of China",
+				"url": "http://www.ustc.edu.cn"
 			},
 			{
-				"name": "Kujiale"
+				"name": "Kujiale",
+				"url": "https://www.kujiale.com"
 			}
 		],
 		"event": "ACM Transactions on Graphics (Proc. of SIGGRAPH Asia 2019)",
@@ -270,7 +272,7 @@
 			},
 			{
 				"fullName": "Wenming Wu",
-				"url": "https://wutomwu.github.io/",
+				"url": "/",
 				"afflID": [0]
 			},
 			{
@@ -287,26 +289,28 @@
 			},
 			{
 				"fullName": "Ligang Liu",
-				"url": "http://staff.ustc.edu.cn/~lgliu/",
+				"url": "http://staff.ustc.edu.cn/~lgliu",
 				"afflID": [0]
 			},
 			{
 				"fullName": "Ligang Liu",
-				"url": "https://ustc-gcl-f.github.io/",
+				"url": "https://ustc-gcl-f.github.io",
 				"afflID": [0]
 			}
 		],
 		"affiliations": 
 		[
 			{
-				"name": "University of Science and Technology of China"
+				"name": "University of Science and Technology of China",
+				"url": "http://www.ustc.edu.cn"
 			},
 			{
-				"name": "New York University"
+				"name": "New York University",
+				"url": "https://www.nyu.edu"
 			}
 		],
 		"event": "ACM Transactions on Graphics (Proc. of SIGGRAPH Asia 2019)",
-		"abstract": "In virtual reality (VR), the virtual scenes are pre-designed by creators. Our physical surroundings, however, comprise signifcantly varied sizes, layouts, and components. To bridge the gap and further enable natural navigation, recent solutions have been proposed to redirect users or recreate the virtual content. However, they suﬀer from either interrupted experience or distorted appearances. We present a novel VR-oriented algorithm that automatically restructures a given virtual scene for a user’s physical environment. Diﬀerent from the previous methods, we introduce neither interrupted walking experience nor curved appearances. Instead, a perceptionaware function optimizes our retargeting technique to preserve the fdelity of the virtual scene that appears in VR head-mounted displays. Besides geometric and topological properties, it emphasizes the unique frst-person view perceptual factors in VR, such as dynamic visibility and objectwise relationships. We conduct both analytical experiments and subjective studies. The results demonstrate our system’s versatile capability and practicability for natural navigation in VR: It reduces the virtual space by 40% without statistical loss of perceptual identicality.", 
+		"abstract": "In virtual reality (VR), the virtual scenes are pre-designed by creators. Our physical surroundings, however, comprise signifcantly varied sizes, layouts, and components. To bridge the gap and further enable natural navigation, recent solutions have been proposed to redirect users or recreate the virtual content. However, they suffer from either interrupted experience or distorted appearances. We present a novel VR-oriented algorithm that automatically restructures a given virtual scene for a user’s physical environment. Different from the previous methods, we introduce neither interrupted walking experience nor curved appearances. Instead, a perceptionaware function optimizes our retargeting technique to preserve the fdelity of the virtual scene that appears in VR head-mounted displays. Besides geometric and topological properties, it emphasizes the unique frst-person view perceptual factors in VR, such as dynamic visibility and objectwise relationships. We conduct both analytical experiments and subjective studies. The results demonstrate our system’s versatile capability and practicability for natural navigation in VR: It reduces the virtual space by 40% without statistical loss of perceptual identicality.", 
 		"contents": 
 		[
 			{
@@ -332,7 +336,7 @@
 					{
 					    "type":"Figure 3",
 						"uri": "images/2021-TailoredReality/results2.png",
-						"caption": "Different weight sets of the energy function Er ({si }). The virtual scene in Figure 1(a) is retargeted into the same real space, and the ratio of real space is 0.65. The weights for (Escale, Eobject, Escene, Espace, Evisibility) are set to (0.001, 200, 50, 0.0003, 0.001) (a), (0.0002, 100, 25, 0.0002, 0.002) (b), and (0.0015, 150, 75, 0.0005, 0.003) (c), respectively. The only subtle variances with diﬀerent parameter seting reveals the robustness of the retargeting method."
+						"caption": "Different weight sets of the energy function Er ({si }). The virtual scene in Figure 1(a) is retargeted into the same real space, and the ratio of real space is 0.65. The weights for (Escale, Eobject, Escene, Espace, Evisibility) are set to (0.001, 200, 50, 0.0003, 0.001) (a), (0.0002, 100, 25, 0.0002, 0.002) (b), and (0.0015, 150, 75, 0.0005, 0.003) (c), respectively. The only subtle variances with different parameter seting reveals the robustness of the retargeting method."
 					},
 					{ 
 						"type":"Figure 4",
@@ -347,12 +351,12 @@
 					{ 
 						"type":"Figure 6",
 						"uri": "images/2021-TailoredReality/result5.png",
-						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+						"caption": "Retargeting results of different sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
 					},
 					{
 						"type":"Figure 7",
 						"uri": "images/2021-TailoredReality/result6.png",
-						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+						"caption": "Retargeting results of different sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
 					}
 				]
 			}
@@ -398,12 +402,12 @@
 			},
 			{
 				"fullName": "Wenming Wu",
-				"url": "https://wutomwu.github.io/",
+				"url": "/",
 				"afflID": [0]
 			},
 			{
 				"fullName": "Ligang Liu",
-				"url": "http://staff.ustc.edu.cn/~lgliu/",
+				"url": "http://staff.ustc.edu.cn/~lgliu",
 				"afflID": [1]
 			},
 			{
@@ -422,10 +426,12 @@
 		"affiliations": 
 		[
 			{
-				"name": "Hefei University of Technology"
+				"name": "Hefei University of Technology",
+				"url": "https://www.hfut.edu.cn"
 			},
 			{
-				"name": "University of Science and Technology of China"
+				"name": "University of Science and Technology of China",
+				"url": "http://www.ustc.edu.cn"
 			}
 		],
 		"event": "ACM Transactions on Graphics (Proc. of SIGGRAPH 2022)",
@@ -442,77 +448,72 @@
 						"caption": "Illustration of our system. Tailored for first-person view VR applications, we propose a novel perception-aware scene retargeting method. It restructures a given virtual scene (a) for users’ small and varied physical spaces (valid area in (b) and (c)). Our technique preserves not only geometric and topological properties but also perceptual fidelity with the immersive first-person view. It addresses the commonly existing collision problems from previous method. For instance the red areas in (e). This can be visualized by comparing the sampled HMD views between Huang et al. [2016] (e) and ours (f)."
 					}
 				]
+			},{
+				"name": "Overview",
+				"images": 
+				[
+					{
+						"type":"Figure 2",
+						"uri": "images/2022-WallPlan/overview.png",
+						"caption": "Overview of WallPlan. (a) The building boundary, as well as the front door (in bright yellow), is given as input of WallPlan. (b) The boundary is initialized with windows (in dark yellow) predicted by WinNet. (c) WallPlan generates both the wall graph and floorplan semantics by a coupled structure of GraphNet and LabelNet from the input boundary and windows. (d) The generated wall graph and floorplan semantics are used to construct a wall graph with room labels as output of WallPlan. The vectorized floorplan can be directly obtained from the wall graph. Note that the drawing of windows and interior doors which are generated using a heuristic method is only used for visualization, also adopted by other figures in this paper."
+					}
+				]
 			},
 			{
 				"name": "Results",
 				"images": 
 				[
 					{ 
-						"type":"Figure 2",
+						"type":"Figure 3",
 						"uri": "images/2022-WallPlan/result1.png",
-						"caption": "The original indoor scene and the retargeted result using our method. Top: Floor plans of the original indoor scene and our result. Middle: several sampling HMD views from the original indoor scene. Botom: Corresponding views from our result."
+						"caption": "Overview of WallPlan. (a) The building boundary, as well as the front door (in bright yellow), is given as input of WallPlan. (b) The boundary is initialized with windows (in dark yellow) predicted by WinNet. (c) WallPlan generates both the wall graph and floorplan semantics by a coupled structure of GraphNet and LabelNet from the input boundary and windows. (d) The generated wall graph and floorplan semantics are used to construct a wall graph with room labels as output of WallPlan. The vectorized floorplan can be directly obtained from the wall graph. Note that the drawing of windows and interior doors which are generated using a heuristic method is only used for visualization, also adopted by other figures in this paper."
 					},
 					{
-					    "type":"Figure 3",
+					    "type":"Figure 4",
 						"uri": "images/2022-WallPlan/results2.png",
-						"caption": "Different weight sets of the energy function Er ({si }). The virtual scene in Figure 1(a) is retargeted into the same real space, and the ratio of real space is 0.65. The weights for (Escale, Eobject, Escene, Espace, Evisibility) are set to (0.001, 200, 50, 0.0003, 0.001) (a), (0.0002, 100, 25, 0.0002, 0.002) (b), and (0.0015, 150, 75, 0.0005, 0.003) (c), respectively. The only subtle variances with diﬀerent parameter seting reveals the robustness of the retargeting method."
+						"caption": "Loading-bearing wall constrained generation. Top row: the input boundary as well as the loading-bearing walls. Middle row: the generated wall graphs with the loading-bearing walls (in black) using our method. Botom row: the corresponding floorplans for visualization."
 					},
 					{ 
-						"type":"Figure 4",
-						"uri": "images/2022-WallPlan/result3.png",
-						"caption": "Various numbers of salient objects. From lef to right, the number of salient objects in the virtual scene decreases monotonously."
-					},
-					{
 						"type":"Figure 5",
-						"uri": "images/2022-WallPlan/result4.png",
-						"caption": "Different real spaces with the same area. The values above the retargeted scene indicate the ratios between the width and height of the real space and the input virtual scene."
-					},
-					{ 
-						"type":"Figure 6",
-						"uri": "images/2022-WallPlan/result5.png",
-						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+						"uri": "images/2022-WallPlan/result3.png",
+						"caption": "Generating multiple floorplans from the same boundary with different constraints. Each column shows the different setings of the specific design constraint applied to the same boundary. (a) Window constraints. (b) Bubble diagram constraints. (c) Loading-bearing wall constraints."
 					},
 					{
-						"type":"Figure 7",
-						"uri": "images/2022-WallPlan/result6.png",
-						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+						"type":"Figure 6",
+						"uri": "images/2022-WallPlan/result4.png",
+						"caption": "Interpolation test. WallPlan generates floorplans from a set of interpolated boundaries. The first and last ones are the input boundaries for interpolation."
 					}
 				]
 			}
 		],
-		"acknowlegement": "We thank user study participants for evaluating our system and the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (61802359 and 62025207), Zhejiang Lab (NO.2019NB0AB03), and USTC Research Funds of Double First-Class Initiative (YD0010002003).",
+		"acknowlegement": "We would like to thank perceptual study participants for evaluating our system and the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (62102126, 62025207, 61972128) and the Fundamental Research Funds for the Central Universities of China (PA2021KCPY0050).",
 		"bibtex": 
 		{
 			"type": "article",
-			"name": "dong2021tailored",
-			"title": "Tailored Reality: Perception-aware Scene Restructuring for Adaptive VR Navigation",
-			"author": "Zhi-Chao Dong and Wenming Wu and Zeng-Hao Xu and Qi Sun and Guan-Jie Yuan and Ligang Liu and Xiao-Ming Fu",
-			"journel": "ACM Transactions on Graphics",
-			"volume": "40",
-			"number": "5",
-			"year": "2021"
+			"name": "sun2022wallplan",
+			"title": "WallPlan: Synthesizing Floorplans by Learning to Generate Wall Graphs",
+			"author": "Jiahui Sun and Wenming Wu and Ligang Liu and Wenjie Min and Gaofeng Zhang and Liping Zheng",
+			"journel": "ACM Transactions on Graphics (SIGGRAPH)",
+			"volume": "41",
+			"number": "4",
+			"year": "2022"
 		},
 		"materials": 
 		[ 
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
 				"matUri": "images/2022-WallPlan/paper.pdf",
-				"caption": "Paper (~22MB)"
-			},
-			{
-				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "images/2022-WallPlan/video.pdf",
-				"caption": "Video (~52MB)"
+				"caption": "Paper (~3MB)"
 			},
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
 				"matUri": "images/2022-WallPlan/suppl.pdf",
-				"caption": "Supplementary Material (~7MB)"
+				"caption": "Supplementary Material (~1MB)"
 			},
 			{
-				"iconUri": "images/icons/zip_wh64.png",
-				"matUri": "images/2022-WallPlan/code.pdf",
-				"caption": "Code (~20MB)"
+				"iconUri": "images/icons/video_wh64.png",
+				"matUri": "images/2022-WallPlan/video.pdf",
+				"caption": "Video (~65MB)"
 			}
 		]
 	},
@@ -538,7 +539,7 @@
 		[
 			{
 				"name": "Hefei University of Technology",
-				"url": "http://www.hfut.edu.cn/"
+				"url": "http://www.hfut.edu.cn"
 			}
 		],
 		"event": "Computer Graphics Forum (Proc. of Pacific Graphics 2023)",
@@ -574,12 +575,12 @@
 					{ 
 						"type":"Figure 3",
 						"uri": "images/2023-BubbleFormer/result1.png",
-						"caption": "The original indoor scene and the retargeted result using our method. Top: Floor plans of the original indoor scene and our result. Middle: several sampling HMD views from the original indoor scene. Botom: Corresponding views from our result."
+						"caption": "Constrained generation. We illustrate the bubble diagrams generated with different boundaries and user constraints. The number of bedrooms, bathrooms, and balconies constrained are shown at the bottom"
 					},
 					{
 					    "type":"Figure 4",
 						"uri": "images/2023-BubbleFormer/results2.png",
-						"caption": "Different weight sets of the energy function Er ({si }). The virtual scene in Figure 1(a) is retargeted into the same real space, and the ratio of real space is 0.65. The weights for (Escale, Eobject, Escene, Espace, Evisibility) are set to (0.001, 200, 50, 0.0003, 0.001) (a), (0.0002, 100, 25, 0.0002, 0.002) (b), and (0.0015, 150, 75, 0.0005, 0.003) (c), respectively. The only subtle variances with diﬀerent parameter seting reveals the robustness of the retargeting method."
+						"caption": "Unconstrained generation. We have tested the capability of BubbleFormer to generate bubble diagrams without any input"
 					},
 					{ 
 						"type":"Figure 5",
@@ -589,54 +590,49 @@
 					{
 						"type":"Figure 6",
 						"uri": "images/2023-BubbleFormer/result4.png",
-						"caption": "Different real spaces with the same area. The values above the retargeted scene indicate the ratios between the width and height of the real space and the input virtual scene."
+						"caption": "Bubble diagram driven ﬂoor plan generation. Our method can further drive ﬂoor plan generation. Our generated bubble diagram can directly drive HouseGAN++ and WallPlan to obtain high-quality ﬂoor plans."
 					},
 					{ 
 						"type":"Figure 7",
 						"uri": "images/2023-BubbleFormer/result5.png",
-						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+						"caption": "BubbleFormer can be applied to indoor furniture arrangemen and document layout generation.Top: indoor furniture arrangement of our method; Bottom: documnet layout generation of our method."
 					},
 					{
 						"type":"Figure 8",
 						"uri": "images/2023-BubbleFormer/result6.png",
-						"caption": "Retargeting results of diﬀerent sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
+						"caption": "Interpolation test. BubbleFormer generates bubble diagrams from a set of interpolated noise maps. The frst and last ones are generated with two different noise maps sampled from a standard normal distribution, and the intermediate results are interpolated using these two noise maps."
 					}
 				]
 			}
 		],
-		"acknowlegement": "We thank user study participants for evaluating our system and the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (61802359 and 62025207), Zhejiang Lab (NO.2019NB0AB03), and USTC Research Funds of Double First-Class Initiative (YD0010002003).",
+		"acknowlegement": "We would like to thank perceptual study participants for evaluating our system and the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (62102126, 61972128) and the Fundamental Research Funds for the Central Universities of China (JZ2023HGTB0269, JZ2022HGQA0163).",
 		"bibtex": 
 		{
 			"type": "article",
-			"name": "dong2021tailored",
+			"name": "sun2023BubbleFormer",
 			"title": "Tailored Reality: Perception-aware Scene Restructuring for Adaptive VR Navigation",
-			"author": "Zhi-Chao Dong and Wenming Wu and Zeng-Hao Xu and Qi Sun and Guan-Jie Yuan and Ligang Liu and Xiao-Ming Fu",
-			"journel": "ACM Transactions on Graphics",
-			"volume": "40",
-			"number": "5",
-			"year": "2021"
+			"author": "Jiahui Sun and Liping Zheng and Gaofeng Zhang and Wenming Wu",
+			"journel": "Computer Graphics Forum (Pacific Graphics)",
+			"volume": "42",
+			"number": "7",
+			"year": "2023"
 		},
 		"materials": 
 		[ 
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "images/2022-WallPlan/paper.pdf",
-				"caption": "Paper (~22MB)"
-			},
-			{
-				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "images/2022-WallPlan/video.pdf",
-				"caption": "Video (~52MB)"
+				"matUri": "images/2023-BubbleFormer/paper.pdf",
+				"caption": "Paper (~4MB)"
 			},
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "images/2022-WallPlan/suppl.pdf",
-				"caption": "Supplementary Material (~7MB)"
+				"matUri": "images/2023-BubbleFormer/suppl.pdf",
+				"caption": "Supplementary Material (~0.5MB)"
 			},
 			{
-				"iconUri": "images/icons/zip_wh64.png",
-				"matUri": "images/2022-WallPlan/code.pdf",
-				"caption": "Code (~20MB)"
+				"iconUri": "images/icons/video_wh64.png",
+				"matUri": "images/2023-BubbleFormer/video.pdf",
+				"caption": "Video (~76MB)"
 			}
 		]
 	}
