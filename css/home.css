@@ -455,3 +455,9 @@ table.no-zebra-stripes tr:nth-child(even)
 {
 	background-color: white; /* 设置偶数行的背景颜色 */
 }
+
+table.no-zebra-stripes 
+{
+    border-collapse: collapse; /* 合并边框，去除外边框 */
+    border: none; /* 去除内边框 */
+}
