@@ -474,7 +474,8 @@ h1
     display: none;
 }
 
-#layout-content {
+#layout-content 
+{
 	padding-top: 0.0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
@@ -482,4 +483,9 @@ h1
     background: white;
     text-align: left;
     vertical-align: top;
+}
+
+body
+{
+	background-color: #dcecff;
 }
