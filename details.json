@@ -270,6 +270,11 @@
 				"iconUri": "publications/icons/dataset_wh64.png",
 				"matUri": "https://docs.google.com/forms/d/e/1FAIpQLSfwteilXzURRKDI5QopWCyOGkeb_CFFbRwtQ0SOPhEg0KGSfw/viewform?usp=sf_link",
 				"caption": "Dataset"
+			},
+			{
+				"iconUri": "publications/icons/zip_wh64.png",
+				"matUri": "https://drive.google.com/file/d/1bMURobr16oeD7wT8jbVuUIJPgOTtOYWs/view?usp=share_link",
+				"caption": "Code (~155MB)"
 			}
 		]
 	},
@@ -389,14 +394,14 @@
 				"caption": "Video (~52MB)"
 			},
 			{
-				"iconUri": "publications/icons/zip_wh64.png",
-				"matUri": "publications/2021-TailoredReality/code.pdf",
-				"caption": "Code (~20MB)"
-			},
-			{
 				"iconUri": "publications/icons/ppt_wh64.png",
 				"matUri": "https://docs.google.com/presentation/d/1KJ4_pZ240w8eBiMDjDVb7t1ceOjinkJd/edit?usp=share_link&ouid=104838625643552629233&rtpof=true&sd=true",
 				"caption": "Slide (~343MB)"
+			},
+			{
+				"iconUri": "publications/icons/zip_wh64.png",
+				"matUri": "publications/2021-TailoredReality/code.zip",
+				"caption": "Code (~20MB)"
 			}
 		]
 	},
@@ -529,6 +534,11 @@
 				"iconUri": "publications/icons/ppt_wh64.png",
 				"matUri": "publications/2022-WallPlan/slide.pptx",
 				"caption": "Slide (~10MB)"
+			},
+			{
+				"iconUri": "publications/icons/zip_wh64.png",
+				"matUri": "",
+				"caption": "Code"
 			}
 		]
 	},
@@ -649,6 +659,11 @@
 				"iconUri": "publications/icons/ppt_wh64.png",
 				"matUri": "publications/2023-BubbleFormer/slide.pptx",
 				"caption": "Slide (~13MB)"
+			},
+			{
+				"iconUri": "publications/icons/zip_wh64.png",
+				"matUri": "",
+				"caption": "Code"
 			}
 		]
 	}
