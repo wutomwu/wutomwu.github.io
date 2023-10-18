@@ -1,0 +1,41 @@
+table.no-color tr:nth-child(odd) 
+{
+	background-color: white; /* 设置偶数行的背景颜色 */
+}
+
+table.no-color tr:nth-child(even) 
+{
+	background-color: white; /* 设置偶数行的背景颜色 */
+}
+
+table.no-border 
+{
+    border-collapse: collapse; /* 合并边框，去除外边框 */
+}
+
+table.no-border th, table.no-border td 
+{
+    border: none; /* 去除表头和单元格的边框 */
+}
+
+table.no-border tr 
+{
+	border-top: 1px; /* 去除表头边框 */
+}
+
+#layout-content 
+{
+	padding-top: 0.0em;
+	padding-bottom: 1.0em;
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+body
+{
+	background-color: #dcecff;
+}

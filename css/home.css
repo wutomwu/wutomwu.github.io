@@ -469,11 +469,6 @@ table.no-border tr
 	border-top: 1px; /* 去除表头边框 */
 }
 
-h1 
-{
-    display: none;
-}
-
 #layout-content 
 {
 	padding-top: 0.0em;
