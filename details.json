@@ -537,8 +537,8 @@
 			},
 			{
 				"iconUri": "publications/icons/zip_wh64.png",
-				"matUri": "/",
-				"caption": "Code"
+				"matUri": "publications/2022-WallPlan/code.zip",
+				"caption": "Code (~1MB)"
 			}
 		]
 	},
