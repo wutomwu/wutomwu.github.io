@@ -115,7 +115,7 @@
 			},
 			{
 				"iconUri": "publications/icons/pdf_wh64.png",
-				"matUri": "publications/2018-IPLayout/paper_lres.pdf",
+				"matUri": "publications/2018-IPLayout/paper_low_res.pdf",
 				"caption": "Low-res Paper (~8MB)"
 			},
 			{
@@ -537,7 +537,7 @@
 			},
 			{
 				"iconUri": "publications/icons/zip_wh64.png",
-				"matUri": "",
+				"matUri": "/",
 				"caption": "Code"
 			}
 		]
@@ -662,7 +662,7 @@
 			},
 			{
 				"iconUri": "publications/icons/zip_wh64.png",
-				"matUri": "",
+				"matUri": "/",
 				"caption": "Code"
 			}
 		]
