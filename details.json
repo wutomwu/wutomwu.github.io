@@ -347,22 +347,22 @@
 				[
 					{ 
 						"type":"Figure 2",
-						"uri": "publications/2021-TailoredReality/result1.png",
+						"uri": "publications/2021-TailoredReality/result1.jpg",
 						"caption": "The original indoor scene and the retargeted result using our method. Top: Floor plans of the original indoor scene and our result. Middle: several sampling HMD views from the original indoor scene. Botom: Corresponding views from our result."
 					},
 					{
 					    "type":"Figure 3",
-						"uri": "publications/2021-TailoredReality/result2.png",
+						"uri": "publications/2021-TailoredReality/result2.jpg",
 						"caption": "Various numbers of salient objects. From lef to right, the number of salient objects in the virtual scene decreases monotonously."
 					},
 					{ 
 						"type":"Figure 4",
-						"uri": "publications/2021-TailoredReality/result3.png",
+						"uri": "publications/2021-TailoredReality/result3.jpg",
 						"caption": "Different real spaces with the same area. The values above the retargeted scene indicate the ratios between the width and height of the real space and the input virtual scene."
 					},
 					{
 						"type":"Figure 5",
-						"uri": "publications/2021-TailoredReality/result4.png",
+						"uri": "publications/2021-TailoredReality/result4.jpg",
 						"caption": "Retargeting results of different sizes from 0.75 to 0.45. The first one is shown as the origin scene. Corresponding HMD views at the same position are also shown for each scene. As the retargeting size decreases, the visual distortion of the scene becomes more and more pronounced. The object-level distortion along with the compression stress level is ploted in Figure 20. The objective metrics of the retargeting results are shown in then supplementary materials."
 					}
 				]
