@@ -661,8 +661,13 @@
 				"caption": "Slide (~13MB)"
 			},
 			{
+				"iconUri": "publications/icons/dataset_wh64.png",
+				"matUri": "publications/2023-BubbleFormer/dataset.zip",
+				"caption": "Dataset"
+			},
+			{
 				"iconUri": "publications/icons/zip_wh64.png",
-				"matUri": "/",
+				"matUri": "publications/2023-BubbleFormer/code.zip",
 				"caption": "Code"
 			}
 		]
