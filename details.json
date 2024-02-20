@@ -756,7 +756,7 @@
 				]
 			}
 		],
-		"acknowlegement": "We would like to thank perceptual study participants for evaluating our system and the anonymous reviewers for their constructive\nsuggestions and comments. This work is supported by the National Natural Science Foundation of China (62102126, 62372153) and the Fundamental Research Funds for the Central Universities of China (JZ2023HGTB0269, JZ2022HGQA0163). In this paper, we used \"LIFULL HOME’S Dataset\" provided by LIFULL Co., Ltd. via IDR Dataset Service of National Institute of Informatics.",
+		"acknowlegement": "We would like to thank the anonymous reviewers for their constructive\nsuggestions and comments. This work is supported by the National Natural Science Foundation of China (62102126, 62372153) and the Fundamental Research Funds for the Central Universities of China (JZ2023HGTB0269, JZ2022HGQA0163). In this paper, we used \"LIFULL HOME’S Dataset\" provided by LIFULL Co., Ltd. via IDR Dataset Service of National Institute of Informatics.",
 		"bibtex":
 		{
 			"type": "article",
