@@ -713,7 +713,7 @@
 				[
 					{
 						"type":"Figure 1",
-						"uri": "publications/2024-Raster-to-Graph/teaser.jpg",
+						"uri": "publications/2024-Raster2Graph/teaser.jpg",
 						"caption": "We propose a novel floorplan vectorization framework for recognizing the semantics and structures of rasterized floorplans. Here shows a gallery of rasterized floorplans and the corresponding vectorized results obtained through our framework. For each group, from left to right: a given rasterized floorplan, a structural graph obtained by our method, a vectorized floorplan with various colors representing different categories of rooms and a popup 3D model of the floorplan."
 					}
 				]
@@ -724,12 +724,12 @@
 				[
 					{
 						"type":"Figure 2",
-						"uri": "publications/2024-Raster-to-Graph/overview-dataset.jpg",
+						"uri": "publications/2024-Raster2Graph/overview-dataset.jpg",
 						"caption": "Overview of Dataset. (a1)-(a3): Statistics on the occurrence of wall junctions (a1), wall segments (a2), and rooms (a3). (b): Statistics on the occurrence of each room category. (c1)-(c3): A typical example in our dataset: rasterized floorplan image (c1), the corresponding structural graph (c2) and semantic floorplan (c3)."
 					},
 					{
 						"type":"Figure 3",
-						"uri": "publications/2024-Raster-to-Graph/overview.jpg",
+						"uri": "publications/2024-Raster2Graph/overview.jpg",
 						"caption": "Overview of Raster-to-Graph. We represent the vector floorplan as a structural graph with semantics, and then the task of floorplan recognition can be viewed as structural graph prediction. Our method takes the rasterized floorplan as input, iteratively predicts nodes (shown in yellow) and edges (shown in blue) of the structural graph in the order of graph traversal, and finally obtains a complete structural graph. A vectorized floorplan can be easily extracted using the structural graph. It’s worth noting that during the iterative process, our framework does not strictly adhere to the fixed order of graph traversal, as indicated in red. This is due to our training strategy, which allows a non-fixed order, a more general graph traversal, enhancing the flexibility of our prediction process."
 					}
 				]
@@ -740,17 +740,17 @@
 				[
 					{ 
 						"type":"Figure 4",
-						"uri": "publications/2024-Raster-to-Graph/result1.jpg",
+						"uri": "publications/2024-Raster2Graph/result1.jpg",
 						"caption": "Ablation study. From (b)-(d), only closed polygons are colored as rooms. In (e), we present the corresponding \"ground truth\" in our dataset. Note there might be a minor level of annotation errors in the semantic labeling of our dataset. For example, in Row 4, The Pipe-space has been incorrectly labeled as the Restroom."
 					},
 					{
 						"type":"Figure 5",
-						"uri": "publications/2024-Raster-to-Graph/result2.jpg",
+						"uri": "publications/2024-Raster2Graph/result2.jpg",
 						"caption": "Qualitative evaluation on structural reconstruction. From (b)-(e), all columns are shown in vectorized floorplans. In (e), we present the corresponding \"ground truth\" in our dataset."
 					},
 					{ 
 						"type":"Figure 6",
-						"uri": "publications/2024-Raster-to-Graph/result3.jpg",
+						"uri": "publications/2024-Raster2Graph/result3.jpg",
 						"caption": "Qualitative evaluation on semantic recognition. From (b)-(e), only closed polygons are colored as rooms. In (e), we present the corresponding \"ground truth\" in our dataset. Note there might be a minor level of annotation errors in the semantic labeling of our dataset."
 					}
 				]
@@ -773,27 +773,27 @@
 		[ 
 			{
 				"iconUri": "publications/icons/pdf_wh64.png",
-				"matUri": "publications/2024-Raster-to-Graph/paper.pdf",
+				"matUri": "publications/2024-Raster2Graph/paper.pdf",
 				"caption": "Paper (~4MB)"
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
-				"matUri": "publications/2024-Raster-to-Graph/video.mp4",
+				"matUri": "publications/2024-Raster2Graph/video.mp4",
 				"caption": "Video (~76MB)"
 			},
 			{
 				"iconUri": "publications/icons/ppt_wh64.png",
-				"matUri": "publications/2024-Raster-to-Graph/slide.pptx",
+				"matUri": "publications/2024-Raster2Graph/slide.pptx",
 				"caption": "Slide (~13MB)"
 			},
 			{
 				"iconUri": "publications/icons/dataset_wh64.png",
-				"matUri": "publications/2024-Raster-to-Graph/dataset.zip",
+				"matUri": "publications/2024-Raster2Graph/dataset.zip",
 				"caption": "Dataset"
 			},
 			{
 				"iconUri": "publications/icons/zip_wh64.png",
-				"matUri": "publications/2024-Raster-to-Graph/code.zip",
+				"matUri": "publications/2024-Raster2Graph/code.zip",
 				"caption": "Code"
 			}
 		]
