@@ -1,5 +1,6 @@
 [
 	{
+		"id": 0,
 		"title": "MIQP-based Layout Design for Building Interiors",
 		"authors": 
 		[
@@ -136,6 +137,7 @@
 		]
 	},
 	{
+		"id": 1,
 		"title": "Data-driven Interior Plan Generation for Residential Buildings",
 		"authors": 
 		[
@@ -279,6 +281,7 @@
 		]
 	},
 	{
+		"id": 2,
 		"title": "Tailored Reality: Perception-Aware Scene Restructuring for Adaptive VR Navigation",
 		"authors": 
 		[
@@ -406,6 +409,7 @@
 		]
 	},
 	{
+		"id": 3,
 		"title": "WallPlan: Synthesizing Floorplans by Learning to Generate Wall Graphs",
 		"authors": 
 		[
@@ -543,6 +547,7 @@
 		]
 	},
 	{
+		"id": 4,
 		"title": "BubbleFormer: Bubble Diagram Generation via Dual Transformer Models",
 		"authors": 
 		[
@@ -673,6 +678,7 @@
 		]
 	},
 	{
+		"id": 5,
 		"title": "Raster-to-Graph: Floorplan Recognition via Autoregressive Graph Prediction with an Attention Transformer",
 		"authors":
 		[
@@ -803,7 +809,8 @@
 			}
 		]
 	},
-	{
+	{   
+		"id": 6,
 		"title": "FuncScene: Function-centric Indoor Scene Synthesis via a Variational AutoEncoder Framework",
 		"authors":
 		[
