@@ -774,22 +774,22 @@
 			{
 				"iconUri": "publications/icons/pdf_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/paper.pdf",
-				"caption": "Paper (~4MB)"
+				"caption": "Paper (~36MB)"
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/video.mp4",
-				"caption": "Video (~76MB)"
+				"caption": "Video (~21MB)"
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/ff.mp4",
-				"caption": "Fast Forward (~76MB)"
+				"caption": "Fast Forward (~2MB)"
 			},
 			{
 				"iconUri": "publications/icons/ppt_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/slide.pptx",
-				"caption": "Slide (~13MB)"
+				"caption": "Slide (~78MB)"
 			},
 			{
 				"iconUri": "publications/icons/dataset_wh64.png",
@@ -907,12 +907,17 @@
 			{
 				"iconUri": "publications/icons/pdf_wh64.png",
 				"matUri": "publications/2024-FuncScene/paper.pdf",
-				"caption": "Paper (~4MB)"
+				"caption": "Paper (~10MB)"
+			},
+			{
+				"iconUri": "publications/icons/video_wh64.png",
+				"matUri": "publications/2024-FuncScene/suppl.mp4",
+				"caption": "Supplementary Material (~0.7MB)"
 			},
 			{
 				"iconUri": "publications/icons/video_wh64.png",
 				"matUri": "publications/2024-FuncScene/video.mp4",
-				"caption": "Video (~76MB)"
+				"caption": "Video (~10MB)"
 			},
 			{
 				"iconUri": "publications/icons/ppt_wh64.png",
