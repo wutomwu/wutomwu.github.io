@@ -782,6 +782,11 @@
 				"caption": "Video (~76MB)"
 			},
 			{
+				"iconUri": "publications/icons/video_wh64.png",
+				"matUri": "publications/2024-Raster2Graph/ff.mp4",
+				"caption": "Fast Forward (~76MB)"
+			},
+			{
 				"iconUri": "publications/icons/ppt_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/slide.pptx",
 				"caption": "Slide (~13MB)"
@@ -794,6 +799,134 @@
 			{
 				"iconUri": "publications/icons/zip_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/code.zip",
+				"caption": "Code"
+			}
+		]
+	},
+	{
+		"title": "FuncScene: Function-centric Indoor Scene Synthesis via a Variational AutoEncoder Framework",
+		"authors":
+		[
+			{
+				"fullName": "Wenjie Min"
+			},
+			{
+				"fullName": "Wenming Wu",
+				"url": "/"
+			},
+			{
+				"fullName": "Gaofeng Zhang "
+			},
+			{
+				"fullName": "Liping Zheng"
+			}
+		],
+		"affiliations":
+		[
+			{
+				"name": "Hefei University of Technology",
+				"url": "http://www.hfut.edu.cn"
+			}
+		],
+		"event": "Computer-Aided Geometric Design (Proc. of GMP 2024)",
+		"abstract": "One of the main challenges of indoor scene synthesis is preserving the functionality of synthesized scenes to create practical and usable indoor environments. Function groups exhibit the capability of balancing the global structure and local scenes of an indoor space. In this paper, we propose a function-centric indoor scene synthesis framework, named FuncScene. Our key idea is to use function groups as an intermedium to connect the local scenes and the global structure, thus achieving a coarse-to-fne indoor scene synthesis while maintaining the functionality and practicality of synthesized scenes. Indoor scenes are synthesized by frst generating function groups using generative models and then instantiating by searching and matching the specifc function groups from a dataset. The proposed framework also makes it easier to achieve multi-level generation control of scene synthesis, which was challenging for previous works. Extensive experiments on various indoor scene synthesis tasks demonstrate the validity of our method. Qualitative and quantitative evaluations show the proposed framework outperforms the existing state-of-the-art.", 
+		"contents":
+		[
+			{
+				"name": "Teaser",
+				"images":
+				[
+					{
+						"type":"Figure 1",
+						"uri": "publications/2024-Raster2Graph/teaser.jpg",
+						"caption": "We introduce a novel model for generating indoor scenes, termed as FuncScene. Given a room boundary, FuncScene operates in two main steps. First, we generate function groups within the scene. Then, we instantiate these function groups by eﬀectively searching for and aligning them with relevant instances from an indoor scene dataset. This approach enables us to achieve enhanced control over the generation of indoor scene designs, ultimately leading to improved quality of the generated scenes. Top: input room boundaries for indoor scene synthesis. Middle: generated function groups for given boundaries. Bottom: fnal synthesised indoor scenes."
+					}
+				]
+			},
+			{
+				"name": "Overview",
+				"images":
+				[
+					{
+						"type":"Figure 2",
+						"uri": "publications/2024-Raster2Graph/overview.jpg",
+						"caption": "Overview of FuncScene, which consists of three main parts. We frst acquire the number and categories of function groups of the scene through LabelVAE which predicts an ordered sequence of functional categories, and then BBoxVAE iteratively generates all necessary attributes of each function group based on the predicted functional category sequence. Finally, we instantiate the generated function groups by searching and matching them with corresponding instances from our indoor scene dataset."
+					}
+				]
+			},
+			{
+				"name": "Results",
+				"images":
+				[
+					{
+						"type":"Figure 3",
+						"uri": "publications/2024-Raster2Graph/result1.jpg",
+						"caption": "Ablation Study. To evaluate the eﬀectiveness of our autoregressive per-attribute prediction, we have conducted an ablation study to simultaneously generate all attributes, as shown in (a). To evaluate the eﬀectiveness of our indoor scene synthesis in adaptive order, we have arranged the function groups within each scene in descending order of frequency and then made the model generate indoor scenes following this fxed order, as shown in (b). The results of our method are shown in (c)."
+					},
+					{
+						"type":"Figure 4",
+						"uri": "publications/2024-Raster2Graph/result2.jpg",
+						"caption": "Diversity evaluation. We conduct the diversity evaluation of our method and baseline methods. From top to bottom, we show the generated indoor scenes by ATISS, the generated scenes by LayoutVAE, and the generated scenes by our method."
+					},
+					{
+						"type":"Figure 5",
+						"uri": "publications/2024-Raster2Graph/result3.jpg",
+						"caption": "Plausibility evaluation. We conduct the plausibility evaluation of our method and baseline methods. From top to bottom, we show the indoor scenes of ground truth, the generated indoor scenes by ATISS, the generated scenes by LayoutVAE, and the generated scenes by our method."
+					},
+					{
+						"type":"Figure 6",
+						"uri": "publications/2024-Raster2Graph/result4.jpg",
+						"caption": "Some results of quantitative evaluation. From top to bottom, it’s the generated scenes by ATISS, LayoutVAE, and our method. Our generated results exhibit better functional integrity than ATISS and LayoutVAE."
+					},
+					{
+						"type":"Figure 7",
+						"uri": "publications/2024-Raster2Graph/result5.jpg",
+						"caption": "Scene completion. Given a partial scene, we attend automatically generate a complete indoor scene. From top to bottom, we show the indoor scenes of ground truth, the completed scene generated by ATISS, the completed scene generated by LayoutVAE, and the completed scene generated by our method."
+					},
+					{
+						"type":"Figure 8",
+						"uri": "publications/2024-Raster2Graph/result6.jpg",
+						"caption": "Synthesis control. Our method can realize multi-level generation control for indoor scene generation, which means that we can realize more constraint control during indoor scene generation to satisfy multiple needs of users. From top to bottom, it’s the partial functionality constraint, complete functionality constraint, and a hybrid of complete functionality and partial scene constraint."
+					}
+				]
+			}
+		],
+		"acknowlegement": "We would like to thank perceptual study participants for evaluating our system and the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (62102126, 62372152), the National Key Research and Development Program of China (2022YFC3900800), and the Fundamental Research Funds for the Central Universities of China (JZ2023HGTB0269).",
+		"bibtex":
+		{
+			"type": "article",
+			"name": "min2024FuncScene",
+			"title": "FuncScene: Function-centric Indoor Scene Synthesis via a Variational AutoEncoder Framework",
+			"author": "Wenjie Min and Wenming Wu and Gaofeng Zhang and Liping Zheng",
+			"journel": "Computer-Aided Geometric Design (GMP)",
+			"pages": "1--14",
+			"year": "2024"
+		},
+		"materials":
+		[
+			{
+				"iconUri": "publications/icons/pdf_wh64.png",
+				"matUri": "publications/2024-FuncScene/paper.pdf",
+				"caption": "Paper (~4MB)"
+			},
+			{
+				"iconUri": "publications/icons/video_wh64.png",
+				"matUri": "publications/2024-FuncScene/video.mp4",
+				"caption": "Video (~76MB)"
+			},
+			{
+				"iconUri": "publications/icons/ppt_wh64.png",
+				"matUri": "publications/2024-FuncScene/slide.pptx",
+				"caption": "Slide (~13MB)"
+			},
+			{
+				"iconUri": "publications/icons/dataset_wh64.png",
+				"matUri": "publications/2024-FuncScene/dataset.zip",
+				"caption": "Dataset"
+			},
+			{
+				"iconUri": "publications/icons/zip_wh64.png",
+				"matUri": "publications/2024-FuncScene/code.zip",
 				"caption": "Code"
 			}
 		]
