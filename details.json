@@ -917,8 +917,8 @@
 				"caption": "Paper (~10MB)"
 			},
 			{
-				"iconUri": "publications/icons/video_wh64.png",
-				"matUri": "publications/2024-FuncScene/suppl.mp4",
+				"iconUri": "publications/icons/pdf_wh64.png",
+				"matUri": "publications/2024-FuncScene/suppl.pdf",
 				"caption": "Supplementary Material (~0.7MB)"
 			},
 			{
