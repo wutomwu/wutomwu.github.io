@@ -415,6 +415,7 @@
 		[
 			{
 				"fullName": "Jiahui Sun",
+				"url": "https://cgjiahui.github.io/",
 				"afflID": [0]
 			},
 			{
@@ -433,10 +434,12 @@
 			},
 			{
 				"fullName": "Gaofeng Zhang",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm",
 				"afflID": [0]
 			},
 			{
 				"fullName": "Liping Zheng",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm",
 				"afflID": [0]
 			}
 		],
@@ -552,13 +555,16 @@
 		"authors": 
 		[
 			{
-				"fullName": "Jiahui Sun"
+				"fullName": "Jiahui Sun",
+				"url": "https://cgjiahui.github.io/"
 			},
 			{
-				"fullName": "Liping Zheng"
+				"fullName": "Liping Zheng",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm"
 			},
 			{
-				"fullName": "Gaofeng Zhang"
+				"fullName": "Gaofeng Zhang",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm"
 			},
 			{
 				"fullName": "Wenming Wu",
@@ -696,7 +702,8 @@
 				"fullName": "Wanni Hou"
 			},
 			{
-				"fullName": "Liping Zheng"
+				"fullName": "Liping Zheng",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm"
 			},
 			{
 				"fullName": "Benzhu Xu"
@@ -822,10 +829,12 @@
 				"url": "/"
 			},
 			{
-				"fullName": "Gaofeng Zhang "
+				"fullName": "Gaofeng Zhang",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm"
 			},
 			{
-				"fullName": "Liping Zheng"
+				"fullName": "Liping Zheng",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm"
 			}
 		],
 		"affiliations":
