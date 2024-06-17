@@ -808,12 +808,12 @@
 			{
 				"iconUri": "publications/icons/dataset_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/dataset.zip",
-				"caption": "Dataset"
+				"caption": "Dataset (~0MB)"
 			},
 			{
 				"iconUri": "publications/icons/zip_wh64.png",
 				"matUri": "publications/2024-Raster2Graph/code.zip",
-				"caption": "Code"
+				"caption": "Code (~0MB)"
 			}
 		]
 	},
@@ -940,17 +940,7 @@
 			{
 				"iconUri": "publications/icons/ppt_wh64.png",
 				"matUri": "publications/2024-FuncScene/slide.pptx",
-				"caption": "Slide (~13MB)"
-			},
-			{
-				"iconUri": "publications/icons/dataset_wh64.png",
-				"matUri": "publications/2024-FuncScene/dataset.zip",
-				"caption": "Dataset"
-			},
-			{
-				"iconUri": "publications/icons/zip_wh64.png",
-				"matUri": "publications/2024-FuncScene/code.zip",
-				"caption": "Code"
+				"caption": "Slide (~23MB)"
 			}
 		]
 	}
