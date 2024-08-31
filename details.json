@@ -807,8 +807,8 @@
 			},
 			{
 				"iconUri": "publications/icons/dataset_wh64.png",
-				"matUri": "publications/2024-Raster2Graph/dataset.zip",
-				"caption": "Dataset (~0MB)"
+				"matUri": "https://docs.google.com/forms/d/e/1FAIpQLSexqNMjyvPMtPMPN7bSh_1u4Q27LZAT-S9lR_gpipNIMKV5lw/viewform",
+				"caption": "Dataset"
 			},
 			{
 				"iconUri": "publications/icons/zip_wh64.png",
