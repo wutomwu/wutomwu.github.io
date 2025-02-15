@@ -943,5 +943,120 @@
 				"caption": "Slide (~23MB)"
 			}
 		]
+    },
+    {   
+		"id": 7,
+		"title": "GSDiff: Synthesizing Vector Floorplans via Geometry-enhanced Structural Graph Generation",
+		"authors":
+		[
+			{
+				"fullName": "Sizhe Hu"
+			},
+			{
+				"fullName": "Wenming Wu",
+				"url": "/"
+			},
+			{
+				"fullName": "Yuntao Wang"
+			},
+			{
+				"fullName": "Benzhu Xu"
+			},
+			{
+				"fullName": "Liping Zheng",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm"
+			}
+		],
+		"affiliations":
+		[
+			{
+				"name": "Hefei University of Technology",
+				"url": "http://www.hfut.edu.cn"
+			}
+		],
+		"event": "AAAI 2025",
+		"abstract": "Automating architectural ﬂoorplan design is vital for housing and interior design, offering a faster, cost-effective alternative to manual sketches by architects. However, existing methods, including rule-based and learning-based approaches, face challenges in design complexity and constrained generation with extensive post-processing, and tend to obvious geometric inconsistencies such as misalignment, overlap, and gaps. In this work, we propose a novel generative framework for vector ﬂoorplan design via structural graph generation, called GSDiff, focusing on wall junction generation and wall segment prediction to capture both geometric and semantic aspects of structural graphs. To improve the geometric rationality of generated structural graphs, we propose two innovative geometry enhancement methods. In wall junction generation, we propose a novel alignment loss function to improve geometric consistency. In wall segment prediction, we propose a random self-supervision method to enhance the model’s perception of the overall geometric structure, thereby promoting the generation of reasonable geometric structures. Employing the diffusion model and the Transformer model, as well as the geometry enhancement strategies, our framework can generate wall junctions, wall segments and room polygons with structural and semantic information, resulting in structural graphs that accurately represent ﬂoorplans. Extensive experiments show that the proposed method surpasses existing techniques, enabling free generation and constrained generation, marking a shift towards structure generation in architectural design.", 
+		"contents":
+		[
+			{
+				"name": "Teaser",
+				"images":
+				[
+					{
+						"type":"Figure 1",
+						"uri": "publications/2025-GSDiff/teaser.jpg",
+						"caption": "Overview. We represent the ﬂoorplan as a structural graph (a) and transform the vector ﬂoorplan synthesis into structural graph generation (b). We frst generate graph nodes using a diffusion model, then predict the existence of edges between each pair of nodes, and fnally extract rooms represented by polygons with semantic labels, resulting in vector ﬂoorplans."
+					}
+				]
+			},
+			{
+				"name": "Overview",
+				"images":
+				[
+					{
+						"type":"Figure 2",
+						"uri": "publications/2025-GSDiff/overview.jpg",
+						"caption": "Overview of FuncScene, which consists of three main parts. We frst acquire the number and categories of function groups of the scene through LabelVAE which predicts an ordered sequence of functional categories, and then BBoxVAE iteratively generates all necessary attributes of each function group based on the predicted functional category sequence. Finally, we instantiate the generated function groups by searching and matching them with corresponding instances from our indoor scene dataset."
+					}
+				]
+			},
+			{
+				"name": "Results",
+				"images":
+				[
+					{
+						"type":"Figure 3",
+						"uri": "publications/2025-GSDiff/result1.jpg",
+						"caption": "A gallery of vector ﬂoorplans generated using our framework. From top to bottom: unconstrained generation, topology-constrained generation, boundary-constrained generation, and unconstrained generation with slanted walls."
+					},
+					{
+						"type":"Figure 4",
+						"uri": "publications/2025-GSDiff/result2.jpg",
+						"caption": "Comparison with the ground truth, Graph2Plan, and WallPlan on the boundary-constrained generation. Our method can produce more reasonable ﬂoorplans."
+					},
+					{
+						"type":"Figure 5",
+						"uri": "publications/2025-GSDiff/result3.jpg",
+						"caption": "Comparison with House-GAN++ and HouseDiffusion on the topology-constrained generation. Our results exhibit greater diversity, better adherence to constraints, and superior visual quality."
+					},
+					{
+						"type":"Figure 6",
+						"uri": "publications/2025-GSDiff/result4.jpg",
+						"caption": "Retrieval analysis. Here are our generated ﬂoorplans and the closest training ﬂoorplans based on Euclidean (Wasserstein) distance."
+					},
+					{
+						"type":"Figure 7",
+						"uri": "publications/2025-GSDiff/result5.jpg",
+						"caption": "Qualitative evaluation on the LIFULL dataset."
+					}
+				]
+			}
+		],
+		"acknowlegement": "We would like to thank the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (62102126, 62372152), the Fundamental Research Funds for the Central Universities of China (JZ2023HGTB0269), and the Open Project Program of the State Key Laboratory of CAD&CG (Grant No. A2412), Zhejiang University. In this paper, we used “LIFULL HOME’S Dataset” provided by LIFULL Co., Ltd. via IDR Dataset Service of National Institute of Informatics.",
+		"bibtex":
+		{
+			"type": "article",
+			"name": "min2024FuncScene",
+			"title": "GSDiff: Synthesizing Vector Floorplans via Geometry-enhanced Structural Graph Generation",
+			"author": "Sizhe Hu and Wenming Wu and Yuntao Wang and Benzhu Xu and Liping Zheng",
+			"booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+			"volume": "39",
+            "number": "20",
+			"pages": "1--10",
+			"year": "2024"
+		},
+		"materials":
+		[
+			{
+				"iconUri": "publications/icons/pdf_wh64.png",
+				"matUri": "publications/2025-GSDiff/paper.pdf",
+				"caption": "Paper (~1MB)"
+			},
+			{
+				"iconUri": "publications/icons/pdf_wh64.png",
+				"matUri": "publications/2025-GSDiff/suppl.pdf",
+				"caption": "Supplementary Material (~3MB)"
+			}
+		]
 	}
 ]
