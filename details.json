@@ -1035,11 +1035,11 @@
 		"acknowlegement": "We would like to thank the anonymous reviewers for their constructive suggestions and comments. This work is supported by the National Natural Science Foundation of China (62102126, 62372152), the Fundamental Research Funds for the Central Universities of China (JZ2023HGTB0269), and the Open Project Program of the State Key Laboratory of CAD&CG (Grant No. A2412), Zhejiang University. In this paper, we used “LIFULL HOME’S Dataset” provided by LIFULL Co., Ltd. via IDR Dataset Service of National Institute of Informatics.",
 		"bibtex":
 		{
-			"type": "article",
+			"type": "inproceedings",
 			"name": "hu2025GSDiff",
 			"title": "GSDiff: Synthesizing Vector Floorplans via Geometry-enhanced Structural Graph Generation",
 			"author": "Sizhe Hu and Wenming Wu and Yuntao Wang and Benzhu Xu and Liping Zheng",
-			"journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+			"booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
 			"volume": "39",
             "number": "20",
 			"pages": "1--10",
