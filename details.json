@@ -996,7 +996,7 @@
 					{
 						"type":"Figure 2",
 						"uri": "publications/2025-GSDiff/overview.jpg",
-						"caption": "Overview of FuncScene, which consists of three main parts. We frst acquire the number and categories of function groups of the scene through LabelVAE which predicts an ordered sequence of functional categories, and then BBoxVAE iteratively generates all necessary attributes of each function group based on the predicted functional category sequence. Finally, we instantiate the generated function groups by searching and matching them with corresponding instances from our indoor scene dataset."
+						"caption": "Network architecture of GSDiff. we propose to decouple the structure graph generation into two stages: node generation and edge prediction, which results in the complete structural graph. Finally, all minimal polygonal loops of the structural graph are extracted as rooms to obtain the fnal vector ﬂoorplan."
 					}
 				]
 			},
