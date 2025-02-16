@@ -1036,10 +1036,10 @@
 		"bibtex":
 		{
 			"type": "article",
-			"name": "min2024FuncScene",
+			"name": "hu2025GSDiff",
 			"title": "GSDiff: Synthesizing Vector Floorplans via Geometry-enhanced Structural Graph Generation",
 			"author": "Sizhe Hu and Wenming Wu and Yuntao Wang and Benzhu Xu and Liping Zheng",
-			"booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+			"journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
 			"volume": "39",
             "number": "20",
 			"pages": "1--10",
