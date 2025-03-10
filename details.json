@@ -274,6 +274,11 @@
 				"caption": "Dataset"
 			},
 			{
+				"iconUri": "publications/icons/dataset_wh64.png",
+				"matUri": "https://github.com/HanHan55/Graph2plan",
+				"caption": "Pre-processed Dataset"
+			},
+			{
 				"iconUri": "publications/icons/zip_wh64.png",
 				"matUri": "https://drive.google.com/file/d/1bMURobr16oeD7wT8jbVuUIJPgOTtOYWs/view?usp=share_link",
 				"caption": "Code (~155MB)"
