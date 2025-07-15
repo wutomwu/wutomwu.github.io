@@ -25,6 +25,7 @@ function initialization (data) {
 	$("#Modeling").text(data[idSerial].bibtex.name)
 	$("#Title").text(data[idSerial].bibtex.title)
 	$("#Author").text(data[idSerial].bibtex.author)
+	$("#Booktitle").text(data[idSerial].bibtex.booktitle)
 	$("#Journal").text(data[idSerial].bibtex.journel)
 	$("#Volume").text(data[idSerial].bibtex.volume)
 	$("#Number").text(data[idSerial].bibtex.number)
