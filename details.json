@@ -1196,7 +1196,8 @@
 		"authors":
 		[
 			{
-				"fullName": "Wenming Wu"
+				"fullName": "Wenming Wu",
+				"url": "/"
 			},
 			{
 				"fullName": "Akang Shen"
@@ -1205,7 +1206,7 @@
 				"fullName": "Yanzhe Yin"
 			},
 			{
-				"fullName": "Zixiang Chen",
+				"fullName": "Zixiang Chen"
 			},
 			{
 				"fullName": "Gaofeng Zhang",
