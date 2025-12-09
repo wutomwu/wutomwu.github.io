@@ -1246,7 +1246,7 @@
 					{
 						"type":"Figure 2",
 						"uri": "publications/2025-SceneFlow/overview1.jpg",
-						"caption": "Overview of SceneFlow for indoor scene synthesis. Starting from an initial chaotic scene at � = 0, objects are progressively refned over time through a ﬂow-based generation process, ensuring improved spatial arrangement by reducing overlaps and boundary violations. A Geometry Refnement module is then applied to fne-tune object positions, further enhancing alignment and geometric consistency, resulting in a realistic and well-structured indoor scene."
+						"caption": "Overview of SceneFlow for indoor scene synthesis. Starting from an initial chaotic scene at t = 0, objects are progressively refned over time through a ﬂow-based generation process, ensuring improved spatial arrangement by reducing overlaps and boundary violations. A Geometry Refnement module is then applied to fne-tune object positions, further enhancing alignment and geometric consistency, resulting in a realistic and well-structured indoor scene."
 					},
                     {
 						"type":"Figure 3",
