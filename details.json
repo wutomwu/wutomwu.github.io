@@ -1345,7 +1345,7 @@
 				"url": "http://www.hfut.edu.cn"
             },
 			{
-				"name": "vAnhui Province Key Laboratory of Industry Safety and Emergency Technology (Hefei University of Technology)",
+				"name": "Anhui Province Key Laboratory of Industry Safety and Emergency Technology (Hefei University of Technology)",
 				"url": "https://iset.hfut.edu.cn/index.htm"
             },
 			{
@@ -1357,7 +1357,7 @@
 				"url": "https://www.ahut.edu.cn/"
             }
 		],
-		"event": "Computer Graphics Forum (Proc. of Eurographics 2025)",
+		"event": "Computer Graphics Forum (Proc. of Eurographics 2026)",
 		"abstract": "Creating floorplans lays the foundation for architectural design and scene modeling. We propose a novel framework for gener ating diverse high-quality floorplans under predefined constraints. Central to our method is an iterative refinement process for optimizing the bounding boxes of rooms and the floorplan semantics image, which defines a vector floorplan together. Vector f loorplans can be generated through a learning-based refinement process. Our framework supports various constraints, such as f loorplan boundaries, topological graphs, and bubble diagrams. Extensive experiments demonstrate that our method is superior to state-of-the-art techniques, particularly in generating a wider variety of solutions that cater to various architectural needs.", 
 		"contents":
 		[
