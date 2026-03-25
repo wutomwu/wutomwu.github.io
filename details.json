@@ -1307,5 +1307,149 @@
 				"caption": "Paper (~3.7MB)"
 			}
 		]
-    }
+    },
+    {
+		"id": 10,
+		"title": "Floorplan Generation by Alternating Geometry and Semantics Optimization",
+		"authors":
+		[
+			{
+				"fullName": "Wenming Wu",
+                "url": "/",
+				"afflID": [0,1]
+			},
+			{
+				"fullName": "Sizhe Hu",
+				"afflID": [0]
+			},
+			{
+                "fullName": "Ligang Liu",
+                "url": "http://staff.ustc.edu.cn/~lgliu",
+				"afflID": [2]
+			},
+			{
+				"fullName": "Liping Zheng",
+				"url": "http://faculty.hfut.edu.cn/zhenglp/zh_CN/index.htm",
+				"afflID": [3,0]
+			},
+			{
+				"fullName": "Xiao-Ming Fu",
+				"url": "http://staff.ustc.edu.cn/~fuxm/",
+				"afflID": [2]
+			}
+		],
+		"affiliations":
+		[
+			{
+				"name": "Hefei University of Technology",
+				"url": "http://www.hfut.edu.cn"
+            },
+			{
+				"name": "vAnhui Province Key Laboratory of Industry Safety and Emergency Technology (Hefei University of Technology)",
+				"url": "https://iset.hfut.edu.cn/index.htm"
+            },
+			{
+				"name": "University of Science and Technology of China",
+				"url": "http://www.ustc.edu.cn"
+			},
+			{
+				"name": "Anhui University of Technology",
+				"url": "https://www.ahut.edu.cn/"
+            }
+		],
+		"event": "Computer Graphics Forum (Proc. of Eurographics 2025)",
+		"abstract": "Creating floorplans lays the foundation for architectural design and scene modeling. We propose a novel framework for gener ating diverse high-quality floorplans under predefined constraints. Central to our method is an iterative refinement process for optimizing the bounding boxes of rooms and the floorplan semantics image, which defines a vector floorplan together. Vector f loorplans can be generated through a learning-based refinement process. Our framework supports various constraints, such as f loorplan boundaries, topological graphs, and bubble diagrams. Extensive experiments demonstrate that our method is superior to state-of-the-art techniques, particularly in generating a wider variety of solutions that cater to various architectural needs.", 
+		"contents":
+		[
+			{
+				"name": "Teaser",
+				"images":
+				[
+					{
+						"type":"Figure 1",
+						"uri": "publications/2026-FloorplanGSO/teaser.jpg",
+						"caption": "Our method generates vector floorplans either unconstrained, enabling free exploration of diverse designs, or constrained, ensuring specific conditions are satisfied. A detailed optimization process for one generated floorplan under the boundary constraint, showing the semantics maps and room layouts. The semantics optimization and geometry optimization are achieved by refining each other progressively."
+					}
+				]
+			},
+			{
+				"name": "Overview",
+				"images":
+				[
+					{
+						"type":"Figure 2",
+						"uri": "publications/2026-FloorplanGSO/overview1.jpg",
+						"caption": "Overview. Our method automatically generates multiple vector floorplans based on design constraints like architectural boundaries. We show the generation process of alternating Geometry-Semantics optimization, with real results of generated floorplans. The semantics network optimizes the semantics map, while the geometry network refines the floorplan’s geometry. This process continuously improves the semantics map and room layout, resulting in vector floorplans derived from these maps and layouts."
+					},
+					{
+						"type":"Figure 3",
+						"uri": "publications/2026-FloorplanGSO/overview2.jpg",
+						"caption": "Floorplan representation. A vector floorplan can be represented by a room layout and a semantics map."
+					},
+					{
+						"type":"Figure 4",
+						"uri": "publications/2026-FloorplanGSO/overview3.jpg",
+						"caption": "Initilization. Several initial room layouts are generated, given the architectural boundary as the input constraint."
+					},
+					{
+						"type":"Figure 5",
+						"uri": "publications/2026-FloorplanGSO/overview4.jpg",
+						"caption": "Semantics optimization. (a) Coarse semantics optimization is used to obtain an initial semantics map. (b) Fine semantics optimization continuously improves the result."
+					},
+					{
+						"type":"Figure 6",
+						"uri": "publications/2026-FloorplanGSO/overview5.jpg",
+						"caption": "Geometry optimization. During training, we apply the semantics network to obtain a semantics map as the input to the geometry network. The semantics map from the previous iteration is used as the input during inference."
+					}
+				]
+			},
+			{
+				"name": "Results",
+				"images":
+				[
+					{
+						"type":"Figure 6",
+						"uri": "publications/2026-FloorplanGSO/result1.jpg",
+						"caption": "The optimization process of generating one floorplan under the boundary constraint. The plot shows the average amount of pixel change in the semantics map before and after each iteration (DPixel). We show the results for the initial, 1st, 5th, 10th, 15th, and 20th iterations, as well as the final floorplan."
+					},
+					{
+						"type":"Figure 7",
+						"uri": "publications/2026-FloorplanGSO/result2.jpg",
+						"caption": "Floorplan generation. Upper: free generation, boxconstrained generation, topological-graph-constrained generation, and bubble-diagram-constrained generation. Bottom: six kinds of hybrid-constrained generations."
+					}
+				]
+			}
+		],
+		"acknowlegement": "We would like to thank the anonymous reviewers for their constructive suggestions and comments. This work was supported by the National Natural Science Foundation of China (Grant No. 62372152), the Fundamental Research Funds for the Central Universities of China (Grant No. PA2025GDSK0035).",
+		"bibtex":
+		{
+			"type": "article",
+			"name": "wu2026FloorplanGSO",
+			"title": "Floorplan Generation by Alternating Geometry and Semantics Optimization",
+			"author": "Wenming Wu and Sizhe Hu and Ligang Liu and  Liping Zheng and  Xiao-Ming Fu",
+			"journel": "Computer Graphics Forum (Eurographics)",
+			"volume": "45",
+			"number": "2",
+			"pages": "1--14",
+			"year": "2026"
+		},
+		"materials":
+		[
+			{
+				"iconUri": "publications/icons/pdf_wh64.png",
+				"matUri": "publications/2026-FloorplanGSO/paper.pdf",
+				"caption": "Paper (~1MB)"
+			},
+			{
+				"iconUri": "publications/icons/pdf_wh64.png",
+				"matUri": "publications/2026-FloorplanGSO/suppl.pdf",
+				"caption": "Paper (~4MB)"
+			},
+			{
+				"iconUri": "publications/icons/video_wh64.png",
+				"matUri": "publications/2026-FloorplanGSO/video.mp4",
+				"caption": "Video (~7MB)"
+			}
+		]
+	}
 ]
